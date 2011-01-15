@@ -1,0 +1,47 @@
+@font-face {
+	font-family: 'LeagueGothicRegular';
+	src: url('league_gothic-webfont.eot');
+	src: local('☺'), url('league_gothic-webfont.woff') format('woff'), url('league_gothic-webfont.ttf') format('truetype'), url('league_gothic-webfont.svg#webfontEwFHESdf') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'AWConquerorSlabLight';
+	src: url('awconquerorslab-light-webfont.eot');
+	src: local('☺'), url('awconquerorslab-light-webfont.woff') format('woff'), url('awconquerorslab-light-webfont.ttf') format('truetype'), url('awconquerorslab-light-webfont.svg#webfontmrpuFtNL') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'AWConquerorDidotLight';
+	src: url('awconquerordidot-light-webfont.eot');
+	src: local('☺'), url('awconquerordidot-light-webfont.woff') format('woff'), url('awconquerordidot-light-webfont.ttf') format('truetype'), url('awconquerordidot-light-webfont.svg#webfontMAPPLMf3') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'AWConquerorInlineRegular';
+	src: url('awconquerorinline-regular-webfont.eot');
+	src: local('☺'), url('awconquerorinline-regular-webfont.woff') format('woff'), url('awconquerorinline-regular-webfont.ttf') format('truetype'), url('awconquerorinline-regular-webfont.svg#webfontNXw7fuGq') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'AWConquerorSansLight';
+	src: url('awconquerorsans-light-webfont.eot');
+	src: local('☺'), url('awconquerorsans-light-webfont.woff') format('woff'), url('awconquerorsans-light-webfont.ttf') format('truetype'), url('awconquerorsans-light-webfont.svg#webfontb6xKtCSe') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'AWConquerorCarvedRegular';
+	src: url('awconquerorcarved-regular-webfont.eot');
+	src: local('☺'), url('awconquerorcarved-regular-webfont.woff') format('woff'), url('awconquerorcarved-regular-webfont.ttf') format('truetype'), url('awconquerorcarved-regular-webfont.svg#webfont01AisSUp') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

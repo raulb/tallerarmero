@@ -1,0 +1,32 @@
+body,div,ul,li,ol,h1,h2,h3,h4,h5,h6,form,fieldset,p{margin:0; padding:0; font-weight:normal;}
+img,fieldset{border:none; padding:0; margin:0;}
+ul,li {list-style:none;}
+body{font:13px Arial, Helvetica,serif; color:#000000; background-color:#E7E1C8; background:url('/images/bkg_repeated.jpg');}
+span.clear{clear:both;}
+div.left{float:left; width:auto;}
+div.right{float:right; width:auto;}
+a{text-decoration:none;}
+a:focus{outline:none;}
+ul:focus {outline:none;}
+input:focus{outline:none}
+
+div#outer_layout{margin:0 auto; width:100%; }
+div#layout {width:1080px; margin:0 auto; padding:50px 30px;}
+
+div#menu {float:left; width:159px; height:100%; margin:12px 0 0; position:relative;}
+div#menu img.logo {float:left; width:126px; height:121px;}
+div#menu ul {position:absolute; top:175px; left:0; }
+div#menu ul li {float:left; width:100%; margin:15px 0 0 0;}
+div#menu ul li a {font:normal 32px "LeagueGothicRegular"; text-transform:uppercase; color:#303300; line-height:30px;}
+div#menu ul li a:hover {color:#7D8A05;}
+div#menu ul li a.selected {color:#7D8A05;}
+
+div#content {width:890px; float:right;}
+div#title {height:200px;}
+h1 {float:right; font:normal 73px "AWConquerorCarvedRegular"; color:#303300; width:100%; height:auto; margin:0; text-align:right; line-height:65px;}
+h1 span.lower {font-size:60px; vertical-align:top;}
+h3 {float:right; margin:12px 0 0; font:normal 21px "AWConquerorDidotLight"; width:100%; text-align:right; color:#515225;}
+p {float:left; width:100%; font:normal 19px "AWConquerorSansLight"; color:#000000; letter-spacing:-1.0px;}
+
+div#content label {float:left; width:100%; color:#303300; border-bottom:1px solid #303300; font:normal 32px "LeagueGothicRegular"; text-transform:uppercase; margin:50px 0 0 0;}
+
