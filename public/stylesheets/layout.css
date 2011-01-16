@@ -11,7 +11,7 @@ ul:focus {outline:none;}
 input:focus{outline:none}
 
 div#outer_layout{margin:0 auto; width:100%; }
-div#layout {width:1080px; margin:0 auto; padding:50px 30px;}
+div#layout {width:1080px; margin:0 auto; padding:50px 30px; background:url('/images/hind_corner.png') no-repeat top right; min-height:265px;}
 
 div#menu {float:left; width:159px; height:100%; margin:12px 0 0; position:relative;}
 div#menu img.logo {float:left; width:126px; height:121px;}
