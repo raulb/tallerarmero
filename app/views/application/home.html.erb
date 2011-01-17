@@ -1,15 +1,16 @@
 <div id="menu">
-    <%= link_to( image_tag("logo.png", :alt => 'Logo taller y reparación de armas'), '/') %>    
-    
+  <div class="content_scrollable">
+    <%= link_to( image_tag("logo.png", :alt => 'Logo taller y reparación de armas'), '/') %>
     <ul>
        <li><a href="#">MARCAS QUE REPARAMOS</a></li>
        <li><a href="#">SERVICIOS</a></li>
        <li><a href="#">ESPECIALISTAS</a></li>
        <li><a href="#">LOCALIZACIÓN Y CONTACTO</a></li>                     
     </ul>
+  </div>
 </div>
+
 <div id="content">
-   
    <div id="title">
       <h1>TALLER Y REPARACIÓN <span class="lower">DE ARMAS</span> JOSÉ VIAJI</h1>
       <h3>Una tradición de armeros de más de 100 años nos avalan</h3>
@@ -19,6 +20,7 @@
    <div id="marcas_reparamos" class="section">
      <label>MARCAS QUE REPARAMOS</label>
      <div class="section_content logos">
+       
        <h5>Reparación, restauración en original y mantenimiento de las marcas más prestigiosas</h5>
         <ul>
           <!-- First row -->
@@ -27,6 +29,11 @@
             <p>Arrieta</p>
           </li>
           <li>
+            <a class="arrizabalga"></a>
+            <p>Arrizabalga</p>
+          </li>
+          
+          <li>
             <a class="benelli"></a>
             <p>Benelli</p>
           </li>
@@ -34,15 +41,16 @@
             <a class="beretta"></a>
             <p>Beretta</p>
           </li>
-          <li>
+          <li class="last">
             <a class="blaser"></a>
             <p>Blaser</p>
           </li>
-          <li class="last">
+          <!-- Second row -->
+          <li>
             <a class="browning"></a>
             <p>Browning</p>
           </li>
-          <!-- Second row -->
+
           <li>
             <a class="fabarm"></a>
             <p>Fabarm</p>
@@ -52,18 +60,22 @@
             <p>Franchi</p>
           </li>
           <li>
+            <a class="garbi"></a>
+            <p>Garbi</p>
+          </li>
+          <li class="last">
             <a class="grulla"></a>
             <p>Grulla</p>
           </li>
+          <!-- Third row -->          
           <li>
             <a class="holland"></a>
             <p>Holland</p>
           </li>
-          <li class="last">
+          <li>
             <a class="krieghoff"></a>
             <p>Krieghoff</p>
           </li>
-          <!-- Third row -->
           <li>
             <a class="mannlicher"></a>
             <p>Mannlicher</p>
@@ -72,19 +84,29 @@
             <a class="purdey"></a>
             <p>Purdey</p>
           </li>
-          <li>
+          <li  class="last">
             <a class="remington"></a>
             <p>Remington</p>
           </li>
+          <!-- Fourth row -->    
           <li>
             <a class="sako"></a>
             <p>Sako</p>
+          </li>
+          <li>
+            <a class="sarasqueta"></a>
+            <p>Sarasqueta</p>
+          </li>
+          <li>
+            <a class="sauer"></a>
+            <p>Sauer</p>
           </li>
           <li class="last">
             <a class="winchester"></a>
             <p>Winchester</p>
           </li>          
-        </ul>  
+        </ul>
+        <a href="#" class="message">Consulta otras marcas</a>  
       </div>
       
       <div id="servicios" class="section">
