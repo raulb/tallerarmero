@@ -13,12 +13,13 @@ input:focus{outline:none}
 div#outer_layout{margin:0 auto; width:100%; }
 div#layout {width:1080px; margin:0 auto; padding:50px 30px; background:url('/images/hind_corner.png') no-repeat top right; min-height:265px;}
 
+div#menu div.content_scrollable {position:fixed; top:58px;}
 div#menu {float:left; width:159px; height:100%; margin:12px 0 0; position:relative;}
 div#menu img.logo {float:left; width:126px; height:121px;}
 div#menu ul {position:absolute; top:175px; left:0; }
 div#menu ul li {float:left; width:100%; margin:15px 0 0 0;}
 div#menu ul li a {font:normal 32px "LeagueGothicRegular"; text-transform:uppercase; color:#303300; line-height:30px;}
-div#menu ul li a:hover {color:#7D8A05;}
+div#menu ul li a:hover {color:#7D8A05; cursor:pointer;}
 div#menu ul li a.selected {color:#7D8A05;}
 
 div#content {width:890px; float:right;}
@@ -29,6 +30,7 @@ h3 {float:right; margin:12px 0 0; font:normal 21px "AWConquerorDidotLight"; widt
 p {float:left; width:100%; font:normal 19px "AWConquerorSansLight"; color:#000000; letter-spacing:-1.0px;}
 
 div#content label {float:left; width:100%; color:#303300; border-bottom:1px solid #303300; font:normal 32px "LeagueGothicRegular"; text-transform:uppercase; margin:50px 0 0 0;}
+div.section {float:left;}
 div.section h5 {float:left; font:normal 21px "AWConquerorSansLight"; color:white; width:847px; margin:27px 27px 0;}
 div.section_content {margin:40px 0 0 0;}
 
