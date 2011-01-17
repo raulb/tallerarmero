@@ -29,4 +29,31 @@ h3 {float:right; margin:12px 0 0; font:normal 21px "AWConquerorDidotLight"; widt
 p {float:left; width:100%; font:normal 19px "AWConquerorSansLight"; color:#000000; letter-spacing:-1.0px;}
 
 div#content label {float:left; width:100%; color:#303300; border-bottom:1px solid #303300; font:normal 32px "LeagueGothicRegular"; text-transform:uppercase; margin:50px 0 0 0;}
+div.section h5 {float:left; font:normal 21px "AWConquerorSansLight"; color:white; width:847px; margin:27px 27px 0;}
+div.section_content {margin:40px 0 0 0;}
+
+div#marcas_reparamos div.logos {float:left; width:891px; height:630px; background:url('/images/bkg_logos_16.png') no-repeat 0 0;}
+div#marcas_reparamos div.logos ul {float:left; margin:10px 0 0 23px; width:845px; height:auto;}
+div#marcas_reparamos div.logos ul li {float:left; width:157px; height:165px; background:url('/images/bkg_logo.png') no-repeat 0 0; margin:15px 15px 0 0;}
+div#marcas_reparamos div.logos ul li.last {margin:15px 0 0;}
+div#marcas_reparamos div.logos ul li a {float:left; width:117px; height:118px; margin:17px 19px 0;}
+
+div#marcas_reparamos div.logos ul li p {font:normal 14px "AWConquerorSansLight"; color:#000000; margin:3px 0 0 0; text-align:center;}
+div#marcas_reparamos div.logos ul li a.arrieta {background:url('/images/logos/arrieta_logo.png') no-repeat 0 0;}
+div#marcas_reparamos div.logos ul li a.benelli {background:url('/images/logos/benelli_logo.png') no-repeat 0 0;}
+div#marcas_reparamos div.logos ul li a.beretta {background:url('/images/logos/beretta_logo.png') no-repeat 0 0;}
+div#marcas_reparamos div.logos ul li a.blaser {background:url('/images/logos/blaser_logo.png') no-repeat 0 0;}
+div#marcas_reparamos div.logos ul li a.browning {background:url('/images/logos/browning_logo.png') no-repeat 0 0;}
+div#marcas_reparamos div.logos ul li a.fabarm {background:url('/images/logos/fabarm_logo.png') no-repeat 0 0;}
+div#marcas_reparamos div.logos ul li a.franchi {background:url('/images/logos/franchi_logo.png') no-repeat 0 0;}
+div#marcas_reparamos div.logos ul li a.grulla {background:url('/images/logos/grulla_logo.png') no-repeat 0 0;}
+div#marcas_reparamos div.logos ul li a.holland {background:url('/images/logos/holland_logo.png') no-repeat 0 0;}
+div#marcas_reparamos div.logos ul li a.krieghoff {background:url('/images/logos/krieghoff_logo.png') no-repeat 0 0;}
+div#marcas_reparamos div.logos ul li a.mannlicher {background:url('/images/logos/mannlicher_logo.png') no-repeat 0 0;}
+div#marcas_reparamos div.logos ul li a.purdey {background:url('/images/logos/purdey_logo.png') no-repeat 0 0;}
+div#marcas_reparamos div.logos ul li a.remington {background:url('/images/logos/remington_logo.png') no-repeat 0 0;}
+div#marcas_reparamos div.logos ul li a.sako {background:url('/images/logos/sako_logo.png') no-repeat 0 0;}
+div#marcas_reparamos div.logos ul li a.winchester {background:url('/images/logos/winchester_logo.png') no-repeat 0 0;}
+div#marcas_reparamos div.logos ul li a:hover {background-position:0 -118px; cursor:pointer;}
+
 
