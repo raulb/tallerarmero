@@ -3,9 +3,9 @@
     <%= link_to( image_tag("logo.png", :alt => 'Logo taller y reparación de armas'), '/') %>
     <ul>
        <li><a onclick="javascript:void $.scrollTo('div#marcas_reparamos',400)">MARCAS QUE REPARAMOS</a></li>
-       <li><a href="#">SERVICIOS</a></li>
-       <li><a href="#">ESPECIALISTAS</a></li>
-       <li><a href="#">LOCALIZACIÓN Y CONTACTO</a></li>                     
+       <li><a onclick="javascript:void $.scrollTo('div#servicios',400)">SERVICIOS</a></li>
+       <li><a onclick="javascript:void $.scrollTo('div#especialistas',400)">ESPECIALISTAS</a></li>
+       <li><a onclick="javascript:void $.scrollTo('div#localizacion',400)">LOCALIZACIÓN Y CONTACTO</a></li>                     
     </ul>
   </div>
 </div>
@@ -14,11 +14,11 @@
    <div id="title">
       <h1>TALLER Y REPARACIÓN <span class="lower">DE ARMAS</span> JOSÉ VIAJI</h1>
       <h3>Una tradición de armeros de más de 100 años nos avalan</h3>
-   </div>
+   </div> <!-- title -->
    
-   <p>Al realizar todos nuestros trabajos en nuestro taller y bajo el control directo de <b>José Viaji</b>, le garantizamos un servicio rápido y de calidad.</p>
+   <p class="info">Al realizar todos nuestros trabajos en nuestro taller y bajo el control directo de <b>José Viaji</b>, le garantizamos un servicio rápido y de calidad.</p>
    <div id="marcas_reparamos" class="section">
-     <label>MARCAS QUE REPARAMOS</label>
+     <label class="title">MARCAS QUE REPARAMOS</label>
      <div class="section_content logos">
        
        <h5>Reparación, restauración en original y mantenimiento de las marcas más prestigiosas</h5>
@@ -107,11 +107,107 @@
           </li>          
         </ul>
         <a href="#" class="message">Consulta otras marcas</a>  
-      </div>
+     </div> <!-- section_content logos -->
+   </div> <!-- marcas_reparamos -->
       
       <div id="servicios" class="section">
-        <label>SERVICIOS</label>
+        <label class="title">SERVICIOS</label>
         
+        <!-- LEFT -->
+        <div class="services left first">
+          <div class="image_bkg">
+            <div class="image">
+              <!-- AQUÍ IRÁN LAS IMÁGENES -->
+            </div> <!-- image -->
+          </div> <!-- image_bkg -->
+          <div class="info">
+            <label>Montaje de visores</label>
+            <p>Al disponer de todo tipo de monturas podemos montar cualquier visor, garantizándole una perfecta puesta en tiro.</p>
+          </div> <!-- info -->
+        </div> <!-- services --> 
+        
+        <!-- RIGHT -->
+        <div class="services right">
+          <div class="image_bkg">
+            <div class="image">
+              <!-- AQUÍ IRÁN LAS IMÁGENES -->
+            </div> <!-- image -->
+          </div> <!-- image_bkg -->
+          <div class="info">
+            <label>Puestas en tiro</label>
+            <p>Las realizamos con fuego real en campo de tiro abierto disponiendo de hasta 250 m. de distancia.</p>
+          </div> <!-- info -->
+        </div> <!-- services --> 
+        
+        <!-- LEFT -->
+        <div class="services left">
+          <div class="image_bkg">
+            <div class="image">
+              <!-- AQUÍ IRÁN LAS IMÁGENES -->
+            </div> <!-- image -->
+          </div> <!-- image_bkg -->
+          <div class="info">
+            <label>Diseño y transformación de armas</label>
+            <ul>
+              <li><p>- Diseñamos y transformamos culatas.</p></li>
+              <li><p>- Realizamos todo tipo de grabados en el acero.</p></li>
+              <li><p>- Sistemas de punto y alza.</p></li>
+              <li><p>- Chapas con sus iniciales.</p></li>
+              <li><p>- Remates en el pistolet con grabados de caza.</p></li>
+            </ul>            
+          </div> <!-- info -->
+        </div> <!-- services --> 
+        
+        <!-- RIGHT -->
+        <div class="services right">
+          <div class="image_bkg">
+            <div class="image">
+              <!-- AQUÍ IRÁN LAS IMÁGENES -->
+            </div> <!-- image -->
+          </div> <!-- image_bkg -->
+          <div class="info">
+            <label>Restauración de cualquier arma</label>
+            <p>Para no dañar el arma, pulimos a mano, tanto maderas como acero para apomazar, satinar, barnizar o dejar sus culatas al aceite, quitando y haciendo picados nuevos.</p>
+          </div> <!-- info -->
+          <a class="more_info">más información</a>          
+        </div> <!-- services -->        
+        
+      </div>  <!-- servicios section -->
+      
+      <!-- ESPECIALISTAS SECTION -->
+      <div id="especialistas" class="section specialists">
+        <label class="title">ESPECIALISTAS</label>
+
+        <div class="single box">
+          <p>Regulación de gatillos y disparadores</p>
+        </div>
+        <div class="multiple box">
+          <p>Poner armas a medida del cazador</p>  
+          <ul>
+            <li><p>- Curvaturas en la culata</p>
+            <li><p>- Ventaja lateral en la culata</p>
+            <li><p>- Pich</p>
+            <li><p>- Largo de culata</p>
+            <li><p>- Cantoneras de goma</p>
+          </ul>
+        </div>
+        <p class="info">Y lo más importante, siempre en nuestras propias instalaciones.</p>
       </div>
-   </div>
+      
+      <!-- ESPECIALISTAS SECTION -->
+      <div id="localizacion" class="section location">
+        <label class="title">LOCALIZACIÓN Y CONTACTO</label>
+        <div class="location_box">
+            <span class="top"></span>
+            <div class="content">
+              <div id="map">
+                
+              </div>
+              <label class="street">Calle Juan Bravo,  42</label>
+              <p class="address">28006 - Madrid - España</p>
+              <p class="address">Tel. 914354013 - Fax. 915769573</p>               
+            </div>
+            <span class="bottom"></span>
+        </div>
+      
 </div>

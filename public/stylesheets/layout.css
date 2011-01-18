@@ -27,13 +27,14 @@ div#title {height:200px;}
 h1 {float:right; font:normal 73px "AWConquerorCarvedRegular"; color:#303300; width:100%; height:auto; margin:0; text-align:right; line-height:65px;}
 h1 span.lower {font-size:60px; vertical-align:top;}
 h3 {float:right; margin:12px 0 0; font:normal 21px "AWConquerorDidotLight"; width:100%; text-align:right; color:#515225;}
-p {float:left; width:100%; font:normal 19px "AWConquerorSansLight"; color:#000000; letter-spacing:-1.0px;}
+p.info {float:left; width:100%; font:normal 19px "AWConquerorSansLight"; color:#000000; letter-spacing:-1.0px;}
 
-div#content label {float:left; width:100%; color:#303300; border-bottom:1px solid #303300; font:normal 32px "LeagueGothicRegular"; text-transform:uppercase; margin:50px 0 0 0;}
-div.section {float:left;}
+div#content label.title {float:left; width:100%; color:#303300; border-bottom:1px solid #303300; font:normal 32px "LeagueGothicRegular"; text-transform:uppercase; margin:50px 0 0 0;}
+div.section {float:left; width:100%;}
 div.section h5 {float:left; font:normal 21px "AWConquerorSansLight"; color:white; width:847px; margin:27px 27px 0;}
 div.section_content {margin:40px 0 0 0;}
 
+/*MARCAS QUE REPARAMOS - SECTION*/
 div#marcas_reparamos div.logos {float:left; width:891px; height:810px; background:url('/images/bkg_logos_20.png') no-repeat 0 0; position:relative;}
 div#marcas_reparamos div.logos a.message {position:absolute; bottom:77px; right:38px; font:normal 18px "AWConquerorSansLight"; color:#FEA600; text-transform:uppercase; text-align:center; width:130px;}
 div#marcas_reparamos div.logos a.message:hover {text-decoration:underline;}
@@ -42,7 +43,6 @@ div#marcas_reparamos div.logos ul li {float:left; width:157px; height:165px; bac
 div#marcas_reparamos div.logos ul li.first {margin:15px 15px 0 100px;}
 div#marcas_reparamos div.logos ul li.last {margin:15px 0 0;}
 div#marcas_reparamos div.logos ul li a {float:left; width:117px; height:118px; margin:17px 19px 0;}
-
 div#marcas_reparamos div.logos ul li p {font:normal 14px "AWConquerorSansLight"; color:#000000; margin:3px 0 0 0; text-align:center;}
 div#marcas_reparamos div.logos ul li a.arrieta {background:url('/images/logos/arrieta_logo.png') no-repeat 0 0;}
 div#marcas_reparamos div.logos ul li a.arrizabalga {background:url('/images/logos/arrizabalga_logo.png') no-repeat 0 0;}
@@ -65,4 +65,43 @@ div#marcas_reparamos div.logos ul li a.sauer {background:url('/images/logos/saue
 div#marcas_reparamos div.logos ul li a.winchester {background:url('/images/logos/winchester_logo.png') no-repeat 0 0;}
 div#marcas_reparamos div.logos ul li a:hover {background-position:0 -118px; cursor:pointer;}
 
+/*GALLERY IMAGES - SECTION*/
+div.services {float:left; width:891px; height:296px; background:url('/images/bkg_image_gallery.png') no-repeat 0 0; position:relative; margin:200px 0 0 0;}
+div.services.first {margin:110px 0 0 0;}
+div.services div.image_bkg {position:absolute; width:595px; height:470px; background:url('/images/bkg_image_service.png') no-repeat; top:-75px;}
+div.services div.image_bkg div.image {float:left; width:519px; height:385px; background-color:red; margin:36px 0 0 46px;}
+div.services div.info {position:absolute; width:250px; height:auto; top:20px;}
+
+div.services.left div.image_bkg {left:20px;}
+div.services.left div.info {right:24px;}
+div.services.left a.more_info {right:24px;}
+div.services.right div.image_bkg {right:20px;}
+div.services.right div.info { left:24px;}
+div.services.right a.more_info {left:24px;}
+
+div.services label {font:normal 21px "AWConquerorSansLight"; color:white; width:250px; border:none;}
+div.services p {float:left; font:normal 15px "AWConquerorSansLight"; color:white; width:240px; margin:20px 0 0 0;}
+div.services ul {float:left; width:240px; height:auto; margin:15px 0 0 0;}
+div.services ul li {float:left; margin:5px 0 0 0; }
+div.services ul li p {margin:0;}
+div.services a.more_info {position:absolute; bottom:24px; font:normal 15px "AWConquerorSansLight"; color:#FEA500; width:250px; margin:15px 0 0 0; }
+div.services a.more_info:hover {text-decoration:underline; cursor:pointer;}
+
+div.specialists {margin:50px 0 0 0;}
+div.specialists .box {margin:30px 0 0 0;}
+div.specialists div.single {float:left; width:432px; height:70px; background:url('/images/bkg_specialists_single.png') no-repeat;}
+div.specialists div.multiple {float:right; width:436px; height:178px; background:url('/images/bkg_specialists_multiple.png') no-repeat;}
+div.specialists p {font:normal 21px "AWConquerorSansLight"; color:white; width:400px; border:none; margin:21px 0 0 27px;}
+div.specialists div.multiple ul {float:left; width:400px; margin:5px 0 0 36px;}
+div.specialists div.multiple ul li {float:left; margin:3px 0 0 0; width:100%;}
+div.specialists div.multiple ul li p {margin:0; font-size:15px;}
+div.specialists p.info {float:left; width:381px; font:normal 19px "AWConquerorSansLight"; color:#000000; line-height:21px;}
+
+div.location_box {float:left; width:891px; height:auto; margin:30px 0 0 0;}
+div.location_box span.top {float:left; width:891px; height:21px; background:url('/images/top_bkg_map.png') no-repeat 0 0;}
+div.location_box div.content {float:left; width:869px; height:auto; background-color:white; margin:0; padding:0 0 0 22px;}
+div.location_box div.content div#map {width:846px; height:330px; margin:0 0 0 22px;}
+div.location_box div.content label.street {float:left; margin:5px 0 0 0; width:670px; font:normal 29px "AWConquerorDidotLight";}
+div.location_box div.content p.address {float:left; width:860px; font:normal 15px "Geneva"; color:#000000;}
+div.location_box span.bottom {float:left; width:891px; height:21px; background:url('/images/bottom_bkg_map.png') no-repeat 0 0;}
 
