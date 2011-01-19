@@ -12,11 +12,11 @@
 
 <div id="content">
    <div id="title">
-      <h1>TALLER Y REPARACIÓN <span class="lower">DE ARMAS</span> JOSÉ VIAJI</h1>
+      <h1>TALLER DE REPARACIÓN <span class="lower">DE ARMAS</span> JOSÉ VIAJI</h1>
       <h3>Una tradición de armeros de más de 100 años nos avalan</h3>
    </div> <!-- title -->
    
-   <p class="info">Al realizar todos nuestros trabajos en nuestro taller y bajo el control directo de <b>José Viaji</b>, le garantizamos un servicio rápido y de calidad.</p>
+   <p class="info">Al realizar todos nuestros trabajos en nuestro taller y bajo el control directo de <a onclick="javascript:void $.scrollTo('div#ilustracion',400)">José Viaji</a>, le garantizamos un servicio rápido y de calidad.</p>
    <div id="marcas_reparamos" class="section">
      <label class="title">MARCAS QUE REPARAMOS</label>
      <div class="section_content logos">
@@ -106,7 +106,7 @@
             <p>Winchester</p>
           </li>          
         </ul>
-        <a href="#" class="message">Consulta otras marcas</a>  
+        <a onclick="javascript:void $.scrollTo('div#localizacion',400)" class="message">Consulta otras marcas</a>  
      </div> <!-- section_content logos -->
    </div> <!-- marcas_reparamos -->
       
@@ -116,8 +116,9 @@
         <!-- LEFT -->
         <div class="services left first">
           <div class="image_bkg">
-            <div class="image">
-              <!-- AQUÍ IRÁN LAS IMÁGENES -->
+            <div class="galleria image">
+              <%= image_tag ('services/image1.jpg'), :alt=>'alt', :title=>'Title'%>
+              <%= image_tag ('services/image2.jpg'), :alt=>'alt', :title=>'Title'%>              
             </div> <!-- image -->
           </div> <!-- image_bkg -->
           <div class="info">
@@ -200,14 +201,31 @@
         <div class="location_box">
             <span class="top"></span>
             <div class="content">
-              <div id="map">
-                
-              </div>
-              <label class="street">Calle Juan Bravo,  42</label>
-              <p class="address">28006 - Madrid - España</p>
+              <div id="map"></div>
+              <a class="street">Calle Juan Bravo,  42</a>
+              <a class="mailto" href="mailto:ra.barroso@gmail.com">escríbenos</a>
+              <p class="address first">28006 - Madrid - España</p>
               <p class="address">Tel. 914354013 - Fax. 915769573</p>               
             </div>
             <span class="bottom"></span>
         </div>
+        
+        <div id="ilustracion" class="ilustracion">
+          <div class="text">
+              <span class="open quote"></span>
+              <p class="cita">Pepe, además de armero, lleva a la práctica sus conocimientos, y a poco que se tercie, se trepa a los Pirineos o se zambulle en los Montes de Toledo con el rifle, la escopeta o la máquina de fotos.</p>
+              <span class="close quote"></span>
+          </div>
+          <div class="info_cita">
+
+            <p id="info">Texto extraído de la revista <b>"Trofeo, caza y conservación"</b> número 454. Marzo 2008. <a href="images/revista_TrofeoyCaza.jpg" class="view_complete">¿Quieres leer el artículo completo?</a></p>
+          </div>
+          <p class="note">ilustración de Barca</p>
+          
+          <%= image_tag ('ilustracion_barca.jpg'), :alt=> "Ilustración de Barca a José Viaji", :title=>"Ilustración de Barca a José Viaji", :class=>'barca' %>
+        </div>
       
+        <div class="bottom_sign">
+          <p>web diseñada y desarrollada por <a href="http://es.linkedin.com/in/raulbarroso" target="_blank">Raúl Barroso</a></p>
+        </div>
 </div>

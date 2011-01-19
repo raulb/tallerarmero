@@ -24,10 +24,12 @@ div#menu ul li a.selected {color:#7D8A05;}
 
 div#content {width:890px; float:right;}
 div#title {height:200px;}
-h1 {float:right; font:normal 73px "AWConquerorCarvedRegular"; color:#303300; width:100%; height:auto; margin:0; text-align:right; line-height:65px;}
+h1 {float:right; font:normal 72px "AWConquerorCarvedRegular"; color:#303300; width:100%; height:auto; margin:0; text-align:right; line-height:65px;}
 h1 span.lower {font-size:60px; vertical-align:top;}
 h3 {float:right; margin:12px 0 0; font:normal 21px "AWConquerorDidotLight"; width:100%; text-align:right; color:#515225;}
 p.info {float:left; width:100%; font:normal 19px "AWConquerorSansLight"; color:#000000; letter-spacing:-1.0px;}
+p.info a {font-weight:bold; text-decoration:none;}
+p.info a:hover {text-decoration:underline; cursor:pointer;}
 
 div#content label.title {float:left; width:100%; color:#303300; border-bottom:1px solid #303300; font:normal 32px "LeagueGothicRegular"; text-transform:uppercase; margin:50px 0 0 0;}
 div.section {float:left; width:100%;}
@@ -37,7 +39,7 @@ div.section_content {margin:40px 0 0 0;}
 /*MARCAS QUE REPARAMOS - SECTION*/
 div#marcas_reparamos div.logos {float:left; width:891px; height:810px; background:url('/images/bkg_logos_20.png') no-repeat 0 0; position:relative;}
 div#marcas_reparamos div.logos a.message {position:absolute; bottom:77px; right:38px; font:normal 18px "AWConquerorSansLight"; color:#FEA600; text-transform:uppercase; text-align:center; width:130px;}
-div#marcas_reparamos div.logos a.message:hover {text-decoration:underline;}
+div#marcas_reparamos div.logos a.message:hover {text-decoration:underline; cursor:pointer;}
 div#marcas_reparamos div.logos ul {float:left; margin:10px 0 0 23px; width:845px; height:auto;}
 div#marcas_reparamos div.logos ul li {float:left; width:157px; height:165px; background:url('/images/bkg_logo.png') no-repeat 0 0; margin:15px 15px 0 0;}
 div#marcas_reparamos div.logos ul li.first {margin:15px 15px 0 100px;}
@@ -69,7 +71,8 @@ div#marcas_reparamos div.logos ul li a:hover {background-position:0 -118px; curs
 div.services {float:left; width:891px; height:296px; background:url('/images/bkg_image_gallery.png') no-repeat 0 0; position:relative; margin:200px 0 0 0;}
 div.services.first {margin:110px 0 0 0;}
 div.services div.image_bkg {position:absolute; width:595px; height:470px; background:url('/images/bkg_image_service.png') no-repeat; top:-75px;}
-div.services div.image_bkg div.image {float:left; width:519px; height:385px; background-color:red; margin:36px 0 0 46px;}
+div.services div.image_bkg div.image {float:left; width:519px; height:385px; margin:36px 0 0 46px;}
+div.services div.image_bkg div.image img {width:519px; height:385px;}
 div.services div.info {position:absolute; width:250px; height:auto; top:20px;}
 
 div.services.left div.image_bkg {left:20px;}
@@ -100,8 +103,33 @@ div.specialists p.info {float:left; width:381px; font:normal 19px "AWConquerorSa
 div.location_box {float:left; width:891px; height:auto; margin:30px 0 0 0;}
 div.location_box span.top {float:left; width:891px; height:21px; background:url('/images/top_bkg_map.png') no-repeat 0 0;}
 div.location_box div.content {float:left; width:869px; height:auto; background-color:white; margin:0; padding:0 0 0 22px;}
-div.location_box div.content div#map {width:846px; height:330px; margin:0 0 0 22px;}
-div.location_box div.content label.street {float:left; margin:5px 0 0 0; width:670px; font:normal 29px "AWConquerorDidotLight";}
+div.location_box div.content div#map {width:846px; height:330px;}
+div.location_box div.content a.street {float:left; margin:9px 0 0 0; width:670px; font:normal 29px "AWConquerorDidotLight"; height:30px;}
+div.location_box div.content a.street:hover {text-decoration:underline; cursor:pointer;}
+div.location_box div.content p.address.first {margin:3px 0 0 0;}
 div.location_box div.content p.address {float:left; width:860px; font:normal 15px "Geneva"; color:#000000;}
+div.location_box div.content a.mailto {float:right; width:138px; height:auto; font:bold 29px "AWConquerorDidotLight"; color:#A76D01; text-decoration:underline; margin:6px 29px 0;}
+div.location_box div.content a.mailto:hover {cursor:pointer; color:#744C01;}
 div.location_box span.bottom {float:left; width:891px; height:21px; background:url('/images/bottom_bkg_map.png') no-repeat 0 0;}
 
+/*MAPS*/
+h5#title_infowindow {font:normal 15px "AWConquerorDidotLight"; color:#303300; width:150px!important;}
+
+div.ilustracion {float:left; width:100%; margin:30px 0 0 0; position:relative;}
+div.ilustracion img.barca {float:right; width:606px; height:447px;}
+div.ilustracion div.text {float:left; width:250px; height:158px; margin:140px 0 0 33px; position:relative;}
+div.ilustracion span.quote {width:30px; height:25px; position:absolute;}
+div.ilustracion span.quote.open {background:url('/images/open_quote.png') no-repeat 0 0; left:-28px; top:-15px;}
+div.ilustracion span.quote.close {background:url('/images/close_quote.png') no-repeat 0 0; left:42px; bottom:20px;}
+div.ilustracion p.cita {font:italic 17px "AWConquerorSansLight"; color:#000000; width:250px; letter-spacing:-1.0px; margin:0 0 0 3px;} 
+div.ilustracion div.info_cita {position:absolute; bottom:22px; left:34px; width:250px; height:65px;}
+div.ilustracion div.info_cita p {float:left; font:normal 17px "AWConquerorSansLight"; color:#000000; width:309px; letter-spacing:-1.0px;}  
+div.ilustracion div.info_cita p a {/*color:#A56C00;*/ color:#A76D01; text-decoration:underline;}
+div.ilustracion div.info_cita p a:hover {cursor:pointer; color:#744C01;}
+div.ilustracion p.note {font:italic 15px "AWConquerorSansLight"; color:#666666; position:absolute; bottom:40px; right:60px;}
+
+
+div.bottom_sign {float:left; width:100%; border-top:1px solid #303300; margin:30px 0 0 0; height:auto; padding:0 0 20px 0;}
+div.bottom_sign p {text-align:center; width:100%; margin:20px 0 0 0; font:normal 13px "AWConquerorSansLight"; color:#000000; letter-spacing:-1.0px;}
+div.bottom_sign p a {font-weight:bold; text-decoration:none; color:#A76D01; }
+div.bottom_sign p a:hover {cursor:pointer; text-decoration:underline; color:#744C01;}
