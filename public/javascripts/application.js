@@ -1,6 +1,6 @@
 var map;
-var latitude = 40.432788;
-var longitude = -3.677866;
+var latitude = 40.432461;
+var longitude = -3.677408;
 var default_zoom = 17;
 
 $(document).ready(function(ev){
