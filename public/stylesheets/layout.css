@@ -10,29 +10,29 @@ a:focus{outline:none;}
 ul:focus {outline:none;}
 input:focus{outline:none}
 
-div#outer_layout{margin:0 auto; width:100%; }
+div#outer_layout{margin:0 auto; width:100%;}
 div#layout {width:1080px; margin:0 auto; padding:50px 30px; background:url('/images/hind_corner.png') no-repeat top right; min-height:265px;}
 
 div#menu div.content_scrollable {position:fixed; top:58px;}
 div#menu {float:left; width:159px; height:100%; margin:12px 0 0; position:relative;}
 div#menu img.logo {float:left; width:126px; height:121px;}
 div#menu ul {position:absolute; top:175px; left:0; }
-div#menu ul li {float:left; width:100%; margin:15px 0 0 0;}
+div#menu ul li {float:left; width:159px; margin:15px 0 0 0;}
 div#menu ul li a {font:normal 32px "LeagueGothicRegular"; text-transform:uppercase; color:#303300; line-height:30px;}
 div#menu ul li a:hover {color:#7D8A05; cursor:pointer;}
 div#menu ul li a.selected {color:#7D8A05;}
 
 div#content {width:890px; float:right;}
 div#title {height:200px;}
-h1 {float:right; font:normal 72px "AWConquerorCarvedRegular"; color:#303300; width:100%; height:auto; margin:0; text-align:right; line-height:65px;}
+h1 {float:right; font:normal 72px "AWConquerorCarvedRegular"; color:#303300; width:890px; height:auto; margin:0; text-align:right; line-height:70px;}
 h1 span.lower {font-size:60px; vertical-align:top;}
-h3 {float:right; margin:12px 0 0; font:normal 21px "AWConquerorDidotLight"; width:100%; text-align:right; color:#515225;}
-p.info {float:left; width:100%; font:normal 19px "AWConquerorSansLight"; color:#000000; letter-spacing:-1.0px;}
+h3 {float:right; margin:12px 0 0; font:normal 21px "AWConquerorDidotLight"; width:890px; text-align:right; color:#515225;}
+p.info {float:left; width:890px; font:normal 19px "AWConquerorSansLight"; color:#000000; letter-spacing:-1.0px;}
 p.info a {font-weight:bold; text-decoration:none;}
 p.info a:hover {text-decoration:underline; cursor:pointer;}
 
-div#content label.title {float:left; width:100%; color:#303300; border-bottom:1px solid #303300; font:normal 32px "LeagueGothicRegular"; text-transform:uppercase; margin:50px 0 0 0;}
-div.section {float:left; width:100%;}
+div#content label.title {float:left; width:890px; color:#303300; border-bottom:1px solid #303300; font:normal 32px "LeagueGothicRegular"; text-transform:uppercase; margin:50px 0 0 0;}
+div.section {float:left; width:890px;}
 div.section h5 {float:left; font:normal 21px "AWConquerorSansLight"; color:white; width:847px; margin:27px 27px 0;}
 div.section_content {margin:40px 0 0 0;}
 
@@ -96,7 +96,7 @@ div.specialists div.single {float:left; width:432px; height:70px; background:url
 div.specialists div.multiple {float:right; width:436px; height:178px; background:url('/images/bkg_specialists_multiple.png') no-repeat;}
 div.specialists p {font:normal 21px "AWConquerorSansLight"; color:white; width:400px; border:none; margin:21px 0 0 27px;}
 div.specialists div.multiple ul {float:left; width:400px; margin:5px 0 0 36px;}
-div.specialists div.multiple ul li {float:left; margin:3px 0 0 0; width:100%;}
+div.specialists div.multiple ul li {float:left; margin:3px 0 0 0; width:400px;}
 div.specialists div.multiple ul li p {margin:0; font-size:15px;}
 div.specialists p.info {float:left; width:381px; font:normal 19px "AWConquerorSansLight"; color:#000000; line-height:21px;}
 
@@ -115,7 +115,7 @@ div.location_box span.bottom {float:left; width:891px; height:21px; background:u
 /*MAPS*/
 h5#title_infowindow {font:normal 15px "AWConquerorDidotLight"; color:#303300; width:199px!important; margin:0;}
 
-div.ilustracion {float:left; width:100%; margin:30px 0 0 0; position:relative;}
+div.ilustracion {float:left; width:890px; margin:30px 0 0 0; position:relative;}
 div.ilustracion img.barca {float:right; width:606px; height:447px;}
 div.ilustracion div.text {float:left; width:250px; height:158px; margin:140px 0 0 33px; position:relative;}
 div.ilustracion span.quote {width:30px; height:25px; position:absolute;}
@@ -126,10 +126,10 @@ div.ilustracion div.info_cita {position:absolute; bottom:22px; left:34px; width:
 div.ilustracion div.info_cita p {float:left; font:normal 17px "AWConquerorSansLight"; color:#000000; width:309px; letter-spacing:-1.0px;}  
 div.ilustracion div.info_cita p a {/*color:#A56C00;*/ color:#A76D01; text-decoration:underline;}
 div.ilustracion div.info_cita p a:hover {cursor:pointer; color:#744C01;}
-div.ilustracion p.note {font:italic 15px "AWConquerorSansLight"; color:#666666; position:absolute; bottom:40px; right:60px;}
+div.ilustracion p.note {font:italic 15px "AWConquerorSansLight"; color:#666666; position:absolute; bottom:40px; right:60px; width:200px;}
 
 
-div.bottom_sign {float:left; width:100%; border-top:1px solid #303300; margin:30px 0 0 0; height:auto; padding:0 0 20px 0;}
-div.bottom_sign p {text-align:center; width:100%; margin:20px 0 0 0; font:normal 13px "AWConquerorSansLight"; color:#000000; letter-spacing:-1.0px;}
+div.bottom_sign {float:left; width:890px; border-top:1px solid #303300; margin:30px 0 0 0; height:auto; padding:0 0 20px 0;}
+div.bottom_sign p {text-align:center; width:890px; margin:20px 0 0 0; font:normal 13px "AWConquerorSansLight"; color:#000000; letter-spacing:-1.0px;}
 div.bottom_sign p a {font-weight:bold; text-decoration:none; color:#A76D01; }
 div.bottom_sign p a:hover {cursor:pointer; text-decoration:underline; color:#744C01;}

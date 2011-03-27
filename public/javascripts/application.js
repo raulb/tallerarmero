@@ -6,9 +6,9 @@ var default_zoom = 17;
 $(document).ready(function(ev){
    
    // Para las galerías de imágenes
-   Galleria.loadTheme('/javascripts/galleria.classic.js');
-   // Initialize Galleria
-   $('.galleria').galleria({thumbnails:false, preload:2,autoplay:5000,transition:'fade',show_counter:'false'})
+   // Galleria.loadTheme('/javascripts/galleria.classic.js');
+   // // Initialize Galleria
+   // $('.galleria').galleria({thumbnails:false, preload:2,autoplay:5000,transition:'fade',show_counter:'false'})
    
    // Preparamos el light box para la revista
    $('p#info a').lightBox();

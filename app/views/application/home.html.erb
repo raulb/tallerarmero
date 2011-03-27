@@ -15,12 +15,11 @@
       <h1>TALLER DE REPARACIÓN <span class="lower">DE ARMAS</span> JOSÉ VIAJI</h1>
       <h3>Una tradición de armeros de más de 100 años nos avalan</h3>
    </div> <!-- title -->
-   
    <p class="info">Al realizar todos nuestros trabajos en nuestro taller y bajo el control directo de <a onclick="javascript:void $.scrollTo('div#ilustracion',400)">José Viaji</a>, le garantizamos un servicio rápido y de calidad.</p>
    <div id="marcas_reparamos" class="section">
      <label class="title">MARCAS QUE REPARAMOS</label>
      <div class="section_content logos">
-       
+
        <h5>Reparación, restauración en original y mantenimiento de las marcas más prestigiosas</h5>
         <ul>
           <!-- First row -->
@@ -32,7 +31,7 @@
             <a class="arrizabalga"></a>
             <p>Arrizabalga</p>
           </li>
-          
+
           <li>
             <a class="benelli"></a>
             <p>Benelli</p>
@@ -109,62 +108,59 @@
         <a onclick="javascript:void $.scrollTo('div#localizacion',400)" class="message">Consulta otras marcas</a>  
      </div> <!-- section_content logos -->
    </div> <!-- marcas_reparamos -->
-      
-    <!-- AQUÍ VA LA SECCIÓN DE SERVICIOS -->
-        
+   <!-- AQUÍ VA LA SECCIÓN DE SERVICIOS -->
 
-      
-      <!-- ESPECIALISTAS SECTION -->
-      <div id="especialistas" class="section specialists">
-        <label class="title">ESPECIALISTAS</label>
 
-        <div class="single box">
-          <p>Regulación de gatillos y disparadores</p>
-        </div>
-        <div class="multiple box">
-          <p>Poner armas a medida del cazador</p>  
-          <ul>
-            <li><p>- Curvaturas en la culata</p>
-            <li><p>- Ventaja lateral en la culata</p>
-            <li><p>- Pich</p>
-            <li><p>- Largo de culata</p>
-            <li><p>- Cantoneras de goma</p>
-          </ul>
-        </div>
-        <p class="info">Y lo más importante, siempre en nuestras propias instalaciones.</p>
+
+     <!-- ESPECIALISTAS SECTION -->
+     <div id="especialistas" class="section specialists">
+       <label class="title">ESPECIALISTAS</label>
+
+       <div class="single box">
+         <p>Regulación de gatillos y disparadores</p>
+       </div>
+       <div class="multiple box">
+         <p>Poner armas a medida del cazador</p>  
+         <ul>
+           <li><p>- Curvaturas en la culata</p>
+           <li><p>- Ventaja lateral en la culata</p>
+           <li><p>- Pich</p>
+           <li><p>- Largo de culata</p>
+           <li><p>- Cantoneras de goma</p>
+         </ul>
+       </div>
+       <p class="info">Y lo más importante, siempre en nuestras propias instalaciones.</p>
+     </div>
+     <div id="localizacion" class="section location">
+       <label class="title">LOCALIZACIÓN Y CONTACTO</label>
+       <div class="location_box">
+           <span class="top"></span>
+           <div class="content">
+             <div id="map"></div>
+             <a class="street">Calle Juan Bravo,  42</a>
+             <a class="mailto" href="mailto:joseviaji@gmail.com">escríbenos</a>
+             <p class="address first">28006 - Madrid - España</p>
+             <p class="address">Móvil. 669788888 - Tel. 914354013</p>               
+           </div>
+           <span class="bottom"></span>
+       </div>
       </div>
       
-      <!-- ESPECIALISTAS SECTION -->
-      <div id="localizacion" class="section location">
-        <label class="title">LOCALIZACIÓN Y CONTACTO</label>
-        <div class="location_box">
-            <span class="top"></span>
-            <div class="content">
-              <div id="map"></div>
-              <a class="street">Calle Juan Bravo,  42</a>
-              <a class="mailto" href="mailto:joseviaji@gmail.com">escríbenos</a>
-              <p class="address first">28006 - Madrid - España</p>
-              <p class="address">Móvil. 669788888 - Tel. 914354013</p>               
-            </div>
-            <span class="bottom"></span>
+      <div id="ilustracion" class="ilustracion">
+        <div class="text">
+            <span class="open quote"></span>
+            <p class="cita">Pepe, además de armero, lleva a la práctica sus conocimientos, y a poco que se tercie, se trepa a los Pirineos o se zambulle en los Montes de Toledo con el rifle, la escopeta o la máquina de fotos.</p>
+            <span class="close quote"></span>
         </div>
+        <div class="info_cita">
+          <p id="info">Texto extraído de la revista <b>"Trofeo, caza y conservación"</b> número 454. Marzo 2008. <a href="images/revista_TrofeoyCaza.jpg" class="view_complete">¿Quieres leer el artículo completo?</a></p>
+        </div>
+        <p class="note">ilustración de Barca</p>
         
-        <div id="ilustracion" class="ilustracion">
-          <div class="text">
-              <span class="open quote"></span>
-              <p class="cita">Pepe, además de armero, lleva a la práctica sus conocimientos, y a poco que se tercie, se trepa a los Pirineos o se zambulle en los Montes de Toledo con el rifle, la escopeta o la máquina de fotos.</p>
-              <span class="close quote"></span>
-          </div>
-          <div class="info_cita">
-
-            <p id="info">Texto extraído de la revista <b>"Trofeo, caza y conservación"</b> número 454. Marzo 2008. <a href="images/revista_TrofeoyCaza.jpg" class="view_complete">¿Quieres leer el artículo completo?</a></p>
-          </div>
-          <p class="note">ilustración de Barca</p>
-          
-          <%= image_tag ('ilustracion_barca.jpg'), :alt=> "Ilustración de Barca a José Viaji", :title=>"Ilustración de Barca a José Viaji", :class=>'barca' %>
-        </div>
+        <%= image_tag ('ilustracion_barca.jpg'), :alt=> "Ilustración de Barca a José Viaji", :title=>"Ilustración de Barca a José Viaji", :class=>'barca' %>
+      </div>
       
-        <div class="bottom_sign">
-          <p>web diseñada y desarrollada por <a href="http://www.raulbarroso.com" target="_blank">Raúl Barroso</a></p>
-        </div>
+      <div class="bottom_sign">
+        <p>web diseñada y desarrollada por <a href="http://www.raulbarroso.com" target="_blank">Raúl Barroso</a></p>
+      </div>     
 </div>
