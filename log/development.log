@@ -3642,3 +3642,10 @@ Started GET "/" for 127.0.0.1 at 2011-03-29 00:15:09 +0200
   Processing by ApplicationController#home as HTML
 Rendered application/home.html.erb within layouts/application (2.3ms)
 Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /Users/raulb/.rbenv/versions/1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-10 10:07:15 -0800
+  Processing by ApplicationController#home as HTML
+Rendered application/home.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
