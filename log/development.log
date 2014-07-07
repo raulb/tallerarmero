@@ -3649,3 +3649,783 @@ Started GET "/" for 127.0.0.1 at 2013-01-10 10:07:15 -0800
   Processing by ApplicationController#home as HTML
 Rendered application/home.html.erb within layouts/application (3.6ms)
 Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+  [1m[36mSQL (0.2ms)[0m  [1mSHOW client_min_messages[0m
+  [1m[35mSQL (0.1ms)[0m  SET client_min_messages TO 'panic'
+  [1m[36mSQL (0.1ms)[0m  [1mSET standard_conforming_strings = on[0m
+  [1m[35mSQL (0.1ms)[0m  SET client_min_messages TO 'notice'
+  [1m[36mSQL (0.3ms)[0m  [1mSET time zone 'UTC'[0m
+  [1m[35mSQL (0.1ms)[0m  SHOW TIME ZONE
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from load at /usr/bin/unicorn:23)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-06 19:37:18 -0700
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW client_min_messages[0m
+  [1m[35mSQL (0.1ms)[0m  SET client_min_messages TO 'panic'
+  [1m[36mSQL (0.1ms)[0m  [1mSET standard_conforming_strings = on[0m
+  [1m[35mSQL (0.2ms)[0m  SET client_min_messages TO 'notice'
+  [1m[36mSQL (0.7ms)[0m  [1mSET time zone 'UTC'[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW TIME ZONE
+  Processing by ApplicationController#home as HTML
+Rendered application/home.html.erb within layouts/application (33.7ms)
+Completed 500 Internal Server Error in 37ms
+
+ActionView::Template::Error (no implicit conversion of nil into String):
+    1: <div id="menu">
+    2:   <div class="content_scrollable">
+    3:     <%= link_to( image_tag("logo.png", :alt => 'Logo taller y reparación de armas'), '/') %>
+    4:     <ul>
+    5:        <li><a onclick="javascript:void $.scrollTo('div#marcas_reparamos',400)">MARCAS QUE REPARAMOS</a></li>
+    6:        <!-- <li><a onclick="javascript:void $.scrollTo('div#servicios',400)">SERVICIOS</a></li> -->
+  app/views/application/home.html.erb:3:in `_app_views_application_home_html_erb___1255364837098926909_70307571317920__2204057920634366184'
+
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.4ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from load at /usr/bin/unicorn:23)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-06 19:37:18 -0700
+  [1m[36mSQL (0.2ms)[0m  [1mSHOW client_min_messages[0m
+  [1m[35mSQL (0.1ms)[0m  SET client_min_messages TO 'panic'
+  [1m[36mSQL (0.1ms)[0m  [1mSET standard_conforming_strings = on[0m
+  [1m[35mSQL (0.1ms)[0m  SET client_min_messages TO 'notice'
+  [1m[36mSQL (0.3ms)[0m  [1mSET time zone 'UTC'[0m
+  [1m[35mSQL (0.1ms)[0m  SHOW TIME ZONE
+  Processing by ApplicationController#home as HTML
+Rendered application/home.html.erb within layouts/application (22.3ms)
+Completed 500 Internal Server Error in 24ms
+
+ActionView::Template::Error (no implicit conversion of nil into String):
+    1: <div id="menu">
+    2:   <div class="content_scrollable">
+    3:     <%= link_to( image_tag("logo.png", :alt => 'Logo taller y reparación de armas'), '/') %>
+    4:     <ul>
+    5:        <li><a onclick="javascript:void $.scrollTo('div#marcas_reparamos',400)">MARCAS QUE REPARAMOS</a></li>
+    6:        <!-- <li><a onclick="javascript:void $.scrollTo('div#servicios',400)">SERVICIOS</a></li> -->
+  app/views/application/home.html.erb:3:in `_app_views_application_home_html_erb___1255364837098926909_70307571317940__2204057920634366184'
+
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.8ms)
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW client_min_messages[0m
+  [1m[35mSQL (0.1ms)[0m  SET client_min_messages TO 'panic'
+  [1m[36mSQL (0.1ms)[0m  [1mSET standard_conforming_strings = on[0m
+  [1m[35mSQL (0.1ms)[0m  SET client_min_messages TO 'notice'
+  [1m[36mSQL (0.4ms)[0m  [1mSET time zone 'UTC'[0m
+  [1m[35mSQL (0.1ms)[0m  SHOW TIME ZONE
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from load at /usr/bin/unicorn:23)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-06 19:37:40 -0700
+  [1m[36mSQL (0.2ms)[0m  [1mSHOW client_min_messages[0m
+  [1m[35mSQL (0.1ms)[0m  SET client_min_messages TO 'panic'
+  [1m[36mSQL (0.1ms)[0m  [1mSET standard_conforming_strings = on[0m
+  [1m[35mSQL (0.1ms)[0m  SET client_min_messages TO 'notice'
+  [1m[36mSQL (0.4ms)[0m  [1mSET time zone 'UTC'[0m
+  [1m[35mSQL (0.1ms)[0m  SHOW TIME ZONE
+  Processing by ApplicationController#home as HTML
+Rendered application/home.html.erb within layouts/application (19.7ms)
+Completed 500 Internal Server Error in 22ms
+
+ActionView::Template::Error (no implicit conversion of nil into String):
+    1: <div id="menu">
+    2:   <div class="content_scrollable">
+    3:     <%= link_to( image_tag("logo.png", :alt => 'Logo taller y reparación de armas'), '/') %>
+    4:     <ul>
+    5:        <li><a onclick="javascript:void $.scrollTo('div#marcas_reparamos',400)">MARCAS QUE REPARAMOS</a></li>
+    6:        <!-- <li><a onclick="javascript:void $.scrollTo('div#servicios',400)">SERVICIOS</a></li> -->
+  app/views/application/home.html.erb:3:in `_app_views_application_home_html_erb___559503881383427846_70289503018100_3633783650414487187'
+
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.2ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from load at /usr/bin/unicorn:23)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-06 19:37:41 -0700
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW client_min_messages[0m
+  [1m[35mSQL (0.1ms)[0m  SET client_min_messages TO 'panic'
+  [1m[36mSQL (0.1ms)[0m  [1mSET standard_conforming_strings = on[0m
+  [1m[35mSQL (0.1ms)[0m  SET client_min_messages TO 'notice'
+  [1m[36mSQL (0.3ms)[0m  [1mSET time zone 'UTC'[0m
+  [1m[35mSQL (0.1ms)[0m  SHOW TIME ZONE
+  Processing by ApplicationController#home as HTML
+Rendered application/home.html.erb within layouts/application (18.7ms)
+Completed 500 Internal Server Error in 21ms
+
+ActionView::Template::Error (no implicit conversion of nil into String):
+    1: <div id="menu">
+    2:   <div class="content_scrollable">
+    3:     <%= link_to( image_tag("logo.png", :alt => 'Logo taller y reparación de armas'), '/') %>
+    4:     <ul>
+    5:        <li><a onclick="javascript:void $.scrollTo('div#marcas_reparamos',400)">MARCAS QUE REPARAMOS</a></li>
+    6:        <!-- <li><a onclick="javascript:void $.scrollTo('div#servicios',400)">SERVICIOS</a></li> -->
+  app/views/application/home.html.erb:3:in `_app_views_application_home_html_erb___559503881383427846_70289503018100_3633783650414487187'
+
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-06 19:37:41 -0700
+  Processing by ApplicationController#home as HTML
+Rendered application/home.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (no implicit conversion of nil into String):
+    1: <div id="menu">
+    2:   <div class="content_scrollable">
+    3:     <%= link_to( image_tag("logo.png", :alt => 'Logo taller y reparación de armas'), '/') %>
+    4:     <ul>
+    5:        <li><a onclick="javascript:void $.scrollTo('div#marcas_reparamos',400)">MARCAS QUE REPARAMOS</a></li>
+    6:        <!-- <li><a onclick="javascript:void $.scrollTo('div#servicios',400)">SERVICIOS</a></li> -->
+  app/views/application/home.html.erb:3:in `_app_views_application_home_html_erb___559503881383427846_70289498323600_3633783650414487187'
+
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.1ms)
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.8ms)
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW client_min_messages[0m
+  [1m[35mSQL (0.1ms)[0m  SET client_min_messages TO 'panic'
+  [1m[36mSQL (0.1ms)[0m  [1mSET standard_conforming_strings = on[0m
+  [1m[35mSQL (0.1ms)[0m  SET client_min_messages TO 'notice'
+  [1m[36mSQL (0.4ms)[0m  [1mSET time zone 'UTC'[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW TIME ZONE
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from load at /usr/bin/unicorn:23)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-06 19:38:14 -0700
+  [1m[36mSQL (0.2ms)[0m  [1mSHOW client_min_messages[0m
+  [1m[35mSQL (0.1ms)[0m  SET client_min_messages TO 'panic'
+  [1m[36mSQL (0.1ms)[0m  [1mSET standard_conforming_strings = on[0m
+  [1m[35mSQL (0.1ms)[0m  SET client_min_messages TO 'notice'
+  [1m[36mSQL (0.3ms)[0m  [1mSET time zone 'UTC'[0m
+  [1m[35mSQL (0.1ms)[0m  SHOW TIME ZONE
+  Processing by ApplicationController#home as HTML
+Rendered application/home.html.erb within layouts/application (21.3ms)
+Completed 500 Internal Server Error in 23ms
+
+ActionView::Template::Error (no implicit conversion of nil into String):
+    1: <div id="menu">
+    2:   <div class="content_scrollable">
+    3:     <%= link_to( image_tag("logo.png", :alt => 'Logo taller y reparación de armas'), '/') %>
+    4:     <ul>
+    5:        <li><a onclick="javascript:void $.scrollTo('div#marcas_reparamos',400)">MARCAS QUE REPARAMOS</a></li>
+    6:        <!-- <li><a onclick="javascript:void $.scrollTo('div#servicios',400)">SERVICIOS</a></li> -->
+  app/views/application/home.html.erb:3:in `_app_views_application_home_html_erb___304360991268390988_70261797641380_2586017235506822320'
+
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.4ms)
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.0ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from load at /usr/bin/unicorn:23)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-06 19:39:42 -0700
+  [1m[36mSQL (0.2ms)[0m  [1mSHOW client_min_messages[0m
+  [1m[35mSQL (0.1ms)[0m  SET client_min_messages TO 'panic'
+  [1m[36mSQL (0.1ms)[0m  [1mSET standard_conforming_strings = on[0m
+  [1m[35mSQL (0.1ms)[0m  SET client_min_messages TO 'notice'
+  [1m[36mSQL (0.3ms)[0m  [1mSET time zone 'UTC'[0m
+  [1m[35mSQL (0.1ms)[0m  SHOW TIME ZONE
+  Processing by ApplicationController#home as HTML
+Rendered application/home.html.erb within layouts/application (18.5ms)
+Completed 500 Internal Server Error in 20ms
+
+ActionView::Template::Error (no implicit conversion of nil into String):
+    157:         </div>
+    158:         <p class="note">ilustración de Barca</p>
+    159: 
+    160:         <%= image_tag ('ilustracion_barca.jpg'), :alt=> "Ilustración de Barca a José Viaji", :title=>"Ilustración de Barca a José Viaji", :class=>'barca' %>
+    161:       </div>
+    162: 
+    163:       <div class="bottom_sign">
+  app/views/application/home.html.erb:160:in `_app_views_application_home_html_erb___304360991268390988_70261797734380_2586017235506822320'
+
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-06 19:40:45 -0700
+  Processing by ApplicationController#home as HTML
+ERROR: compiling _app_views_application_home_html_erb___304360991268390988_70261795291340_2586017235506822320 RAISED /Users/rbarroso/code/tallerarmero/app/views/application/home.html.erb:3: syntax error, unexpected ')', expecting keyword_end
+...eparación de armas')}", '/') );@output_buffer.safe_concat('
+...                               ^
+Function body:           def _app_views_application_home_html_erb___304360991268390988_70261795291340_2586017235506822320(local_assigns)
+            _old_virtual_path, @_virtual_path = @_virtual_path, "application/home";_old_output_buffer = @output_buffer;;@output_buffer = ActionView::OutputBuffer.new;@output_buffer.safe_concat('<div id="menu">
+  <div class="content_scrollable">
+    ');@output_buffer.append= ( link_to "#{image_tag("logo.png", :alt => 'Logo taller y reparación de armas')}", '/') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    <ul>
+       <li><a onclick="javascript:void $.scrollTo(\'div#marcas_reparamos\',400)">MARCAS QUE REPARAMOS</a></li>
+       <!-- <li><a onclick="javascript:void $.scrollTo(\'div#servicios\',400)">SERVICIOS</a></li> -->
+       <li><a onclick="javascript:void $.scrollTo(\'div#especialistas\',400)">ESPECIALISTAS</a></li>
+       <li><a onclick="javascript:void $.scrollTo(\'div#localizacion\',400)">LOCALIZACIÓN Y CONTACTO</a></li>
+    </ul>
+  </div>
+</div>
+
+<div id="content">
+   <div id="title">
+      <h1>TALLER DE REPARACIÓN <span class="lower">DE ARMAS</span> JOSÉ VIAJI</h1>
+      <h3>Una tradición de armeros de más de 100 años nos avalan</h3>
+   </div> <!-- title -->
+   <p class="info">Al realizar todos nuestros trabajos en nuestro taller y bajo el control directo de <a onclick="javascript:void $.scrollTo(\'div#ilustracion\',400)">José Viaji</a>, le garantizamos un servicio rápido y de calidad.</p>
+   <div id="marcas_reparamos" class="section">
+     <label class="title">MARCAS QUE REPARAMOS</label>
+     <div class="section_content logos">
+
+       <h5>Reparación, restauración en original y mantenimiento de las marcas más prestigiosas</h5>
+        <ul>
+          <!-- First row -->
+          <li>
+            <a href="http://www.arrietashotguns.com/" target="_blank" class="arrieta"></a>
+            <p>Arrieta</p>
+          </li>
+          <li>
+            <a class="arrizabalga"></a>
+            <p>Arrizabalga</p>
+          </li>
+
+          <li>
+            <a class="benelli"></a>
+            <p>Benelli</p>
+          </li>
+          <li>
+            <a class="beretta"></a>
+            <p>Beretta</p>
+          </li>
+          <li class="last">
+            <a class="blaser"></a>
+            <p>Blaser</p>
+          </li>
+          <!-- Second row -->
+          <li>
+            <a class="browning"></a>
+            <p>Browning</p>
+          </li>
+
+          <li>
+            <a class="fabarm"></a>
+            <p>Fabarm</p>
+          </li>
+          <li>
+            <a class="franchi"></a>
+            <p>Franchi</p>
+          </li>
+          <li>
+            <a class="garbi"></a>
+            <p>Garbi</p>
+          </li>
+          <li class="last">
+            <a class="grulla"></a>
+            <p>Grulla</p>
+          </li>
+          <!-- Third row -->
+          <li>
+            <a class="holland"></a>
+            <p>Holland</p>
+          </li>
+          <li>
+            <a class="krieghoff"></a>
+            <p>Krieghoff</p>
+          </li>
+          <li>
+            <a class="mannlicher"></a>
+            <p>Mannlicher</p>
+          </li>
+          <li>
+            <a class="purdey"></a>
+            <p>Purdey</p>
+          </li>
+          <li  class="last">
+            <a class="remington"></a>
+            <p>Remington</p>
+          </li>
+          <!-- Fourth row -->
+          <li>
+            <a class="sako"></a>
+            <p>Sako</p>
+          </li>
+          <li>
+            <a class="sarasqueta"></a>
+            <p>Sarasqueta</p>
+          </li>
+          <li>
+            <a class="sauer"></a>
+            <p>Sauer</p>
+          </li>
+          <li class="last">
+            <a class="winchester"></a>
+            <p>Winchester</p>
+          </li>
+        </ul>
+        <a onclick="javascript:void $.scrollTo(\'div#localizacion\',400)" class="message">Consulta otras marcas</a>
+     </div> <!-- section_content logos -->
+   </div> <!-- marcas_reparamos -->
+   <!-- AQUÍ VA LA SECCIÓN DE SERVICIOS -->
+
+
+
+     <!-- ESPECIALISTAS SECTION -->
+     <div id="especialistas" class="section specialists">
+       <label class="title">ESPECIALISTAS</label>
+
+       <div class="single box">
+         <p>Regulación de gatillos y disparadores</p>
+       </div>
+       <div class="multiple box">
+         <p>Poner armas a medida del cazador</p>
+         <ul>
+           <li><p>- Curvaturas en la culata</p>
+           <li><p>- Ventaja lateral en la culata</p>
+           <li><p>- Pich</p>
+           <li><p>- Largo de culata</p>
+           <li><p>- Cantoneras de goma</p>
+         </ul>
+       </div>
+       <p class="info">Y lo más importante, siempre en nuestras propias instalaciones.</p>
+     </div>
+     <div id="localizacion" class="section location">
+       <label class="title">LOCALIZACIÓN Y CONTACTO</label>
+       <div class="location_box">
+           <span class="top"></span>
+           <div class="content">
+             <div id="map"></div>
+             <a class="street">Calle Juan Bravo,  42</a>
+             <a class="mailto" href="mailto:joseviaji@gmail.com">escríbenos</a>
+             <p class="address first">28006 - Madrid - España</p>
+             <p class="address">Móvil. 669788888 - Tel. 914354013</p>
+           </div>
+           <span class="bottom"></span>
+       </div>
+      </div>
+
+      <div id="ilustracion" class="ilustracion">
+        <div class="text">
+            <span class="open quote"></span>
+            <p class="cita">Pepe, además de armero, lleva a la práctica sus conocimientos, y a poco que se tercie, se trepa a los Pirineos o se zambulle en los Montes de Toledo con el rifle, la escopeta o la máquina de fotos.</p>
+            <span class="close quote"></span>
+        </div>
+        <div class="info_cita">
+          <p id="info">Texto extraído de la revista <b>"Trofeo, caza y conservación"</b> número 454. Marzo 2008. <a href="images/revista_TrofeoyCaza.jpg" class="view_complete">¿Quieres leer el artículo completo?</a></p>
+        </div>
+        <p class="note">ilustración de Barca</p>
+
+        ');@output_buffer.append= ( image_tag ('ilustracion_barca.jpg'), :alt=> "Ilustración de Barca a José Viaji", :title=>"Ilustración de Barca a José Viaji", :class=>'barca' );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('      </div>
+
+      <div class="bottom_sign">
+        <p>web diseñada y desarrollada por <a href="http://www.raulbarroso.com" target="_blank">Raúl Barroso</a></p>
+      </div>
+</div>
+');@output_buffer.to_s
+          ensure
+            @_virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_view/template.rb:258:in `module_eval'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_view/template.rb:258:in `compile'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_view/template.rb:134:in `block in render'
+/Library/Ruby/Gems/2.0.0/gems/activesupport-3.0.20/lib/active_support/notifications.rb:54:in `instrument'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_view/template.rb:127:in `render'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_view/render/rendering.rb:59:in `block in _render_template'
+/Library/Ruby/Gems/2.0.0/gems/activesupport-3.0.20/lib/active_support/notifications.rb:52:in `block in instrument'
+/Library/Ruby/Gems/2.0.0/gems/activesupport-3.0.20/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Library/Ruby/Gems/2.0.0/gems/activesupport-3.0.20/lib/active_support/notifications.rb:52:in `instrument'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_view/render/rendering.rb:56:in `_render_template'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_view/render/rendering.rb:26:in `render'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/abstract_controller/rendering.rb:115:in `_render_template'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/abstract_controller/rendering.rb:109:in `render_to_body'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_controller/metal/renderers.rb:47:in `render_to_body'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/abstract_controller/rendering.rb:102:in `render_to_string'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/abstract_controller/rendering.rb:93:in `render'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_controller/metal/rendering.rb:17:in `render'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Library/Ruby/Gems/2.0.0/gems/activesupport-3.0.20/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+/Library/Ruby/Gems/2.0.0/gems/activesupport-3.0.20/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Library/Ruby/Gems/2.0.0/gems/activerecord-3.0.20/lib/active_record/railties/controller_runtime.rb:15:in `cleanup_view_runtime'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/abstract_controller/base.rb:150:in `process_action'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_controller/metal/rendering.rb:11:in `process_action'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Library/Ruby/Gems/2.0.0/gems/activesupport-3.0.20/lib/active_support/callbacks.rb:431:in `_run__4160671791425067747__process_action__4498584820915968816__callbacks'
+/Library/Ruby/Gems/2.0.0/gems/activesupport-3.0.20/lib/active_support/callbacks.rb:410:in `_run_process_action_callbacks'
+/Library/Ruby/Gems/2.0.0/gems/activesupport-3.0.20/lib/active_support/callbacks.rb:94:in `run_callbacks'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Library/Ruby/Gems/2.0.0/gems/activesupport-3.0.20/lib/active_support/notifications.rb:52:in `block in instrument'
+/Library/Ruby/Gems/2.0.0/gems/activesupport-3.0.20/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Library/Ruby/Gems/2.0.0/gems/activesupport-3.0.20/lib/active_support/notifications.rb:52:in `instrument'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/abstract_controller/base.rb:119:in `process'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/abstract_controller/rendering.rb:41:in `process'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_controller/metal.rb:138:in `dispatch'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_controller/metal.rb:178:in `block in action'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/routing/route_set.rb:68:in `call'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/routing/route_set.rb:68:in `dispatch'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/routing/route_set.rb:33:in `call'
+/Library/Ruby/Gems/2.0.0/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:148:in `block in call'
+/Library/Ruby/Gems/2.0.0/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:93:in `block in recognize'
+/Library/Ruby/Gems/2.0.0/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:68:in `optimized_each'
+/Library/Ruby/Gems/2.0.0/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:92:in `recognize'
+/Library/Ruby/Gems/2.0.0/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:139:in `call'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/routing/route_set.rb:499:in `call'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Library/Ruby/Gems/2.0.0/gems/rack-1.2.7/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/middleware/flash.rb:182:in `call'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/middleware/session/abstract_store.rb:149:in `call'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/middleware/cookies.rb:302:in `call'
+/Library/Ruby/Gems/2.0.0/gems/activerecord-3.0.20/lib/active_record/query_cache.rb:32:in `block in call'
+/Library/Ruby/Gems/2.0.0/gems/activerecord-3.0.20/lib/active_record/connection_adapters/abstract/query_cache.rb:28:in `cache'
+/Library/Ruby/Gems/2.0.0/gems/activerecord-3.0.20/lib/active_record/query_cache.rb:12:in `cache'
+/Library/Ruby/Gems/2.0.0/gems/activerecord-3.0.20/lib/active_record/query_cache.rb:31:in `call'
+/Library/Ruby/Gems/2.0.0/gems/activerecord-3.0.20/lib/active_record/connection_adapters/abstract/connection_pool.rb:354:in `call'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/middleware/callbacks.rb:46:in `block in call'
+/Library/Ruby/Gems/2.0.0/gems/activesupport-3.0.20/lib/active_support/callbacks.rb:416:in `_run_call_callbacks'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+/Library/Ruby/Gems/2.0.0/gems/rack-1.2.7/lib/rack/sendfile.rb:106:in `call'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/Library/Ruby/Gems/2.0.0/gems/railties-3.0.20/lib/rails/rack/logger.rb:13:in `call'
+/Library/Ruby/Gems/2.0.0/gems/rack-1.2.7/lib/rack/runtime.rb:17:in `call'
+/Library/Ruby/Gems/2.0.0/gems/rack-1.2.7/lib/rack/lock.rb:13:in `block in call'
+/Library/Ruby/Gems/2.0.0/gems/rack-1.2.7/lib/rack/lock.rb:13:in `synchronize'
+/Library/Ruby/Gems/2.0.0/gems/rack-1.2.7/lib/rack/lock.rb:13:in `call'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/middleware/static.rb:30:in `call'
+/Library/Ruby/Gems/2.0.0/gems/railties-3.0.20/lib/rails/application.rb:168:in `call'
+/Library/Ruby/Gems/2.0.0/gems/railties-3.0.20/lib/rails/application.rb:77:in `method_missing'
+/Library/Ruby/Gems/2.0.0/gems/rack-1.2.7/lib/rack/lint.rb:48:in `_call'
+/Library/Ruby/Gems/2.0.0/gems/rack-1.2.7/lib/rack/lint.rb:36:in `call'
+/Library/Ruby/Gems/2.0.0/gems/rack-1.2.7/lib/rack/showexceptions.rb:24:in `call'
+/Library/Ruby/Gems/2.0.0/gems/rack-1.2.7/lib/rack/commonlogger.rb:18:in `call'
+/Library/Ruby/Gems/2.0.0/gems/rack-1.2.7/lib/rack/chunked.rb:15:in `call'
+/Library/Ruby/Gems/2.0.0/gems/rack-1.2.7/lib/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/2.0.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:576:in `process_client'
+/Library/Ruby/Gems/2.0.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:670:in `worker_loop'
+/Library/Ruby/Gems/2.0.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:525:in `spawn_missing_workers'
+/Library/Ruby/Gems/2.0.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:140:in `start'
+/Library/Ruby/Gems/2.0.0/gems/unicorn-4.8.3/bin/unicorn:126:in `<top (required)>'
+/usr/bin/unicorn:23:in `load'
+/usr/bin/unicorn:23:in `<main>'
+Rendered application/home.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 3ms
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-06 19:40:46 -0700
+  Processing by ApplicationController#home as HTML
+ERROR: compiling _app_views_application_home_html_erb___304360991268390988_70261795180800_2586017235506822320 RAISED /Users/rbarroso/code/tallerarmero/app/views/application/home.html.erb:3: syntax error, unexpected ')', expecting keyword_end
+...eparación de armas')}", '/') );@output_buffer.safe_concat('
+...                               ^
+Function body:           def _app_views_application_home_html_erb___304360991268390988_70261795180800_2586017235506822320(local_assigns)
+            _old_virtual_path, @_virtual_path = @_virtual_path, "application/home";_old_output_buffer = @output_buffer;;@output_buffer = ActionView::OutputBuffer.new;@output_buffer.safe_concat('<div id="menu">
+  <div class="content_scrollable">
+    ');@output_buffer.append= ( link_to "#{image_tag("logo.png", :alt => 'Logo taller y reparación de armas')}", '/') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    <ul>
+       <li><a onclick="javascript:void $.scrollTo(\'div#marcas_reparamos\',400)">MARCAS QUE REPARAMOS</a></li>
+       <!-- <li><a onclick="javascript:void $.scrollTo(\'div#servicios\',400)">SERVICIOS</a></li> -->
+       <li><a onclick="javascript:void $.scrollTo(\'div#especialistas\',400)">ESPECIALISTAS</a></li>
+       <li><a onclick="javascript:void $.scrollTo(\'div#localizacion\',400)">LOCALIZACIÓN Y CONTACTO</a></li>
+    </ul>
+  </div>
+</div>
+
+<div id="content">
+   <div id="title">
+      <h1>TALLER DE REPARACIÓN <span class="lower">DE ARMAS</span> JOSÉ VIAJI</h1>
+      <h3>Una tradición de armeros de más de 100 años nos avalan</h3>
+   </div> <!-- title -->
+   <p class="info">Al realizar todos nuestros trabajos en nuestro taller y bajo el control directo de <a onclick="javascript:void $.scrollTo(\'div#ilustracion\',400)">José Viaji</a>, le garantizamos un servicio rápido y de calidad.</p>
+   <div id="marcas_reparamos" class="section">
+     <label class="title">MARCAS QUE REPARAMOS</label>
+     <div class="section_content logos">
+
+       <h5>Reparación, restauración en original y mantenimiento de las marcas más prestigiosas</h5>
+        <ul>
+          <!-- First row -->
+          <li>
+            <a href="http://www.arrietashotguns.com/" target="_blank" class="arrieta"></a>
+            <p>Arrieta</p>
+          </li>
+          <li>
+            <a class="arrizabalga"></a>
+            <p>Arrizabalga</p>
+          </li>
+
+          <li>
+            <a class="benelli"></a>
+            <p>Benelli</p>
+          </li>
+          <li>
+            <a class="beretta"></a>
+            <p>Beretta</p>
+          </li>
+          <li class="last">
+            <a class="blaser"></a>
+            <p>Blaser</p>
+          </li>
+          <!-- Second row -->
+          <li>
+            <a class="browning"></a>
+            <p>Browning</p>
+          </li>
+
+          <li>
+            <a class="fabarm"></a>
+            <p>Fabarm</p>
+          </li>
+          <li>
+            <a class="franchi"></a>
+            <p>Franchi</p>
+          </li>
+          <li>
+            <a class="garbi"></a>
+            <p>Garbi</p>
+          </li>
+          <li class="last">
+            <a class="grulla"></a>
+            <p>Grulla</p>
+          </li>
+          <!-- Third row -->
+          <li>
+            <a class="holland"></a>
+            <p>Holland</p>
+          </li>
+          <li>
+            <a class="krieghoff"></a>
+            <p>Krieghoff</p>
+          </li>
+          <li>
+            <a class="mannlicher"></a>
+            <p>Mannlicher</p>
+          </li>
+          <li>
+            <a class="purdey"></a>
+            <p>Purdey</p>
+          </li>
+          <li  class="last">
+            <a class="remington"></a>
+            <p>Remington</p>
+          </li>
+          <!-- Fourth row -->
+          <li>
+            <a class="sako"></a>
+            <p>Sako</p>
+          </li>
+          <li>
+            <a class="sarasqueta"></a>
+            <p>Sarasqueta</p>
+          </li>
+          <li>
+            <a class="sauer"></a>
+            <p>Sauer</p>
+          </li>
+          <li class="last">
+            <a class="winchester"></a>
+            <p>Winchester</p>
+          </li>
+        </ul>
+        <a onclick="javascript:void $.scrollTo(\'div#localizacion\',400)" class="message">Consulta otras marcas</a>
+     </div> <!-- section_content logos -->
+   </div> <!-- marcas_reparamos -->
+   <!-- AQUÍ VA LA SECCIÓN DE SERVICIOS -->
+
+
+
+     <!-- ESPECIALISTAS SECTION -->
+     <div id="especialistas" class="section specialists">
+       <label class="title">ESPECIALISTAS</label>
+
+       <div class="single box">
+         <p>Regulación de gatillos y disparadores</p>
+       </div>
+       <div class="multiple box">
+         <p>Poner armas a medida del cazador</p>
+         <ul>
+           <li><p>- Curvaturas en la culata</p>
+           <li><p>- Ventaja lateral en la culata</p>
+           <li><p>- Pich</p>
+           <li><p>- Largo de culata</p>
+           <li><p>- Cantoneras de goma</p>
+         </ul>
+       </div>
+       <p class="info">Y lo más importante, siempre en nuestras propias instalaciones.</p>
+     </div>
+     <div id="localizacion" class="section location">
+       <label class="title">LOCALIZACIÓN Y CONTACTO</label>
+       <div class="location_box">
+           <span class="top"></span>
+           <div class="content">
+             <div id="map"></div>
+             <a class="street">Calle Juan Bravo,  42</a>
+             <a class="mailto" href="mailto:joseviaji@gmail.com">escríbenos</a>
+             <p class="address first">28006 - Madrid - España</p>
+             <p class="address">Móvil. 669788888 - Tel. 914354013</p>
+           </div>
+           <span class="bottom"></span>
+       </div>
+      </div>
+
+      <div id="ilustracion" class="ilustracion">
+        <div class="text">
+            <span class="open quote"></span>
+            <p class="cita">Pepe, además de armero, lleva a la práctica sus conocimientos, y a poco que se tercie, se trepa a los Pirineos o se zambulle en los Montes de Toledo con el rifle, la escopeta o la máquina de fotos.</p>
+            <span class="close quote"></span>
+        </div>
+        <div class="info_cita">
+          <p id="info">Texto extraído de la revista <b>"Trofeo, caza y conservación"</b> número 454. Marzo 2008. <a href="images/revista_TrofeoyCaza.jpg" class="view_complete">¿Quieres leer el artículo completo?</a></p>
+        </div>
+        <p class="note">ilustración de Barca</p>
+
+        ');@output_buffer.append= ( image_tag ('ilustracion_barca.jpg'), :alt=> "Ilustración de Barca a José Viaji", :title=>"Ilustración de Barca a José Viaji", :class=>'barca' );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('      </div>
+
+      <div class="bottom_sign">
+        <p>web diseñada y desarrollada por <a href="http://www.raulbarroso.com" target="_blank">Raúl Barroso</a></p>
+      </div>
+</div>
+');@output_buffer.to_s
+          ensure
+            @_virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_view/template.rb:258:in `module_eval'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_view/template.rb:258:in `compile'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_view/template.rb:134:in `block in render'
+/Library/Ruby/Gems/2.0.0/gems/activesupport-3.0.20/lib/active_support/notifications.rb:54:in `instrument'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_view/template.rb:127:in `render'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_view/render/rendering.rb:59:in `block in _render_template'
+/Library/Ruby/Gems/2.0.0/gems/activesupport-3.0.20/lib/active_support/notifications.rb:52:in `block in instrument'
+/Library/Ruby/Gems/2.0.0/gems/activesupport-3.0.20/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Library/Ruby/Gems/2.0.0/gems/activesupport-3.0.20/lib/active_support/notifications.rb:52:in `instrument'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_view/render/rendering.rb:56:in `_render_template'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_view/render/rendering.rb:26:in `render'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/abstract_controller/rendering.rb:115:in `_render_template'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/abstract_controller/rendering.rb:109:in `render_to_body'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_controller/metal/renderers.rb:47:in `render_to_body'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/abstract_controller/rendering.rb:102:in `render_to_string'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/abstract_controller/rendering.rb:93:in `render'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_controller/metal/rendering.rb:17:in `render'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Library/Ruby/Gems/2.0.0/gems/activesupport-3.0.20/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+/Library/Ruby/Gems/2.0.0/gems/activesupport-3.0.20/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Library/Ruby/Gems/2.0.0/gems/activerecord-3.0.20/lib/active_record/railties/controller_runtime.rb:15:in `cleanup_view_runtime'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/abstract_controller/base.rb:150:in `process_action'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_controller/metal/rendering.rb:11:in `process_action'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Library/Ruby/Gems/2.0.0/gems/activesupport-3.0.20/lib/active_support/callbacks.rb:431:in `_run__4160671791425067747__process_action__4498584820915968816__callbacks'
+/Library/Ruby/Gems/2.0.0/gems/activesupport-3.0.20/lib/active_support/callbacks.rb:410:in `_run_process_action_callbacks'
+/Library/Ruby/Gems/2.0.0/gems/activesupport-3.0.20/lib/active_support/callbacks.rb:94:in `run_callbacks'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Library/Ruby/Gems/2.0.0/gems/activesupport-3.0.20/lib/active_support/notifications.rb:52:in `block in instrument'
+/Library/Ruby/Gems/2.0.0/gems/activesupport-3.0.20/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Library/Ruby/Gems/2.0.0/gems/activesupport-3.0.20/lib/active_support/notifications.rb:52:in `instrument'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/abstract_controller/base.rb:119:in `process'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/abstract_controller/rendering.rb:41:in `process'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_controller/metal.rb:138:in `dispatch'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_controller/metal.rb:178:in `block in action'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/routing/route_set.rb:68:in `call'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/routing/route_set.rb:68:in `dispatch'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/routing/route_set.rb:33:in `call'
+/Library/Ruby/Gems/2.0.0/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:148:in `block in call'
+/Library/Ruby/Gems/2.0.0/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:93:in `block in recognize'
+/Library/Ruby/Gems/2.0.0/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:68:in `optimized_each'
+/Library/Ruby/Gems/2.0.0/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:92:in `recognize'
+/Library/Ruby/Gems/2.0.0/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:139:in `call'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/routing/route_set.rb:499:in `call'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Library/Ruby/Gems/2.0.0/gems/rack-1.2.7/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/middleware/flash.rb:182:in `call'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/middleware/session/abstract_store.rb:149:in `call'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/middleware/cookies.rb:302:in `call'
+/Library/Ruby/Gems/2.0.0/gems/activerecord-3.0.20/lib/active_record/query_cache.rb:32:in `block in call'
+/Library/Ruby/Gems/2.0.0/gems/activerecord-3.0.20/lib/active_record/connection_adapters/abstract/query_cache.rb:28:in `cache'
+/Library/Ruby/Gems/2.0.0/gems/activerecord-3.0.20/lib/active_record/query_cache.rb:12:in `cache'
+/Library/Ruby/Gems/2.0.0/gems/activerecord-3.0.20/lib/active_record/query_cache.rb:31:in `call'
+/Library/Ruby/Gems/2.0.0/gems/activerecord-3.0.20/lib/active_record/connection_adapters/abstract/connection_pool.rb:354:in `call'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/middleware/callbacks.rb:46:in `block in call'
+/Library/Ruby/Gems/2.0.0/gems/activesupport-3.0.20/lib/active_support/callbacks.rb:416:in `_run_call_callbacks'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+/Library/Ruby/Gems/2.0.0/gems/rack-1.2.7/lib/rack/sendfile.rb:106:in `call'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/Library/Ruby/Gems/2.0.0/gems/railties-3.0.20/lib/rails/rack/logger.rb:13:in `call'
+/Library/Ruby/Gems/2.0.0/gems/rack-1.2.7/lib/rack/runtime.rb:17:in `call'
+/Library/Ruby/Gems/2.0.0/gems/rack-1.2.7/lib/rack/lock.rb:13:in `block in call'
+/Library/Ruby/Gems/2.0.0/gems/rack-1.2.7/lib/rack/lock.rb:13:in `synchronize'
+/Library/Ruby/Gems/2.0.0/gems/rack-1.2.7/lib/rack/lock.rb:13:in `call'
+/Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/middleware/static.rb:30:in `call'
+/Library/Ruby/Gems/2.0.0/gems/railties-3.0.20/lib/rails/application.rb:168:in `call'
+/Library/Ruby/Gems/2.0.0/gems/railties-3.0.20/lib/rails/application.rb:77:in `method_missing'
+/Library/Ruby/Gems/2.0.0/gems/rack-1.2.7/lib/rack/lint.rb:48:in `_call'
+/Library/Ruby/Gems/2.0.0/gems/rack-1.2.7/lib/rack/lint.rb:36:in `call'
+/Library/Ruby/Gems/2.0.0/gems/rack-1.2.7/lib/rack/showexceptions.rb:24:in `call'
+/Library/Ruby/Gems/2.0.0/gems/rack-1.2.7/lib/rack/commonlogger.rb:18:in `call'
+/Library/Ruby/Gems/2.0.0/gems/rack-1.2.7/lib/rack/chunked.rb:15:in `call'
+/Library/Ruby/Gems/2.0.0/gems/rack-1.2.7/lib/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/2.0.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:576:in `process_client'
+/Library/Ruby/Gems/2.0.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:670:in `worker_loop'
+/Library/Ruby/Gems/2.0.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:525:in `spawn_missing_workers'
+/Library/Ruby/Gems/2.0.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:140:in `start'
+/Library/Ruby/Gems/2.0.0/gems/unicorn-4.8.3/bin/unicorn:126:in `<top (required)>'
+/usr/bin/unicorn:23:in `load'
+/usr/bin/unicorn:23:in `<main>'
+Rendered application/home.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 2ms
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-06 19:41:25 -0700
+  Processing by ApplicationController#home as HTML
+Rendered application/home.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 2ms
+
+ActionView::Template::Error (no implicit conversion of nil into String):
+    1: <div id="menu">
+    2:   <div class="content_scrollable">
+    3:     <%= link_to( image_tag("logo.png", :alt => 'Logo taller y reparación de armas'), '/') %>
+    4:     <ul>
+    5:        <li><a onclick="javascript:void $.scrollTo('div#marcas_reparamos',400)">MARCAS QUE REPARAMOS</a></li>
+    6:        <!-- <li><a onclick="javascript:void $.scrollTo('div#servicios',400)">SERVICIOS</a></li> -->
+  app/views/application/home.html.erb:3:in `_app_views_application_home_html_erb___304360991268390988_70261795654840_2586017235506822320'
+
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.20/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.7ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /Users/rbarroso/code/tallerarmero/config/environment.rb:5)
+  [1m[36mSQL (0.2ms)[0m  [1mSHOW client_min_messages[0m
+  [1m[35mSQL (0.1ms)[0m  SET client_min_messages TO 'panic'
+  [1m[36mSQL (0.1ms)[0m  [1mSET standard_conforming_strings = on[0m
+  [1m[35mSQL (0.1ms)[0m  SET client_min_messages TO 'notice'
+  [1m[36mSQL (0.3ms)[0m  [1mSET time zone 'UTC'[0m
+  [1m[35mSQL (0.1ms)[0m  SHOW TIME ZONE
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-06 19:43:39 -0700
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW client_min_messages[0m
+  [1m[35mSQL (0.2ms)[0m  SET client_min_messages TO 'panic'
+  [1m[36mSQL (0.1ms)[0m  [1mSET standard_conforming_strings = on[0m
+  [1m[35mSQL (0.1ms)[0m  SET client_min_messages TO 'notice'
+  [1m[36mSQL (0.3ms)[0m  [1mSET time zone 'UTC'[0m
+  [1m[35mSQL (0.1ms)[0m  SHOW TIME ZONE
+  Processing by ApplicationController#home as HTML
+Rendered application/home.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 2.0ms)
