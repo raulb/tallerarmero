@@ -1,3 +1,5 @@
+# Sobre nosotros
+
 José Viaji y Daniel Almeida son unos armeros madrileños de tradición.
 
 José Viaji es la 3ª generación de armeros de la familia. Hijo del armero Francisco Viaji, cuyo taller se encontraba en el castizo barrio de la Latina y desde donde daba servicio a sus propios clients, además de servicio técnico a varias importantes armerías madrileñas, como eran: Villanueva, El Águila, Azurmendi…
