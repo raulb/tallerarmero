@@ -1,16 +1,16 @@
 {
   "globals": {
     "blog": {
-      "title": "Casper",
-      "description": "Just a static blog.",
-      "logo": false,
-      "cover": false,
+      "title": "Armería Viaji",
+      "description": "Una tradición de armeros de más de 100 años nos avalan.",
+      "logo": "http://f.cl.ly/items/2P300s3Y1E0S293s0i0t/armeria-logo.svg",
+      "cover": true,
       "url": "/"
     },
     "author": {
-      "name": "Kenneth Ormandy",
-      "email": "kenneth@chloi.io",
-      "bio": "Hi, I like Harp"
+      "name": "José Viaji",
+      "email": "joseviaji@gmail.com",
+      "bio": "Armero"
     }
   },
   "domains": []
