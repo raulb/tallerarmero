@@ -1,0 +1,60 @@
+{
+  "Arrieta": {
+    "src": "/assets/logos/arrieta_logo.jpg",
+    "website": "http://www.arrietashotguns.com/"
+  },
+  "Arrizabalga": {
+    "src": "/assets/logos/arrizabalga_logo.jpg"
+  },
+  "Benelli": {
+    "src": "/assets/logos/benelli_logo.jpg"
+  },
+  "Berreta": {
+    "src": "/assets/logos/berreta_logo.jpg"
+  },
+  "Blaser": {
+    "src": "/assets/logos/blaser_logo.jpg"
+  },
+  "Browning": {
+    "src": "/assets/logos/browning_logo.jpg"
+  },
+  "Fabarm": {
+    "src": "/assets/logos/fabarm_logo.jpg"
+  },
+  "Franchi": {
+    "src": "/assets/logos/franchi_logo.jpg"
+  },
+  "Garbi": {
+    "src": "/assets/logos/garbi_logo.jpg"
+  },
+  "Grulla": {
+    "src": "/assets/logos/grulla_logo.jpg"
+  },
+  "Holland": {
+    "src": "/assets/logos/holland_logo.jpg"
+  },
+  "Krieghoff": {
+    "src": "/assets/logos/krieghoff_logo.jpg"
+  },
+  "Mannlicher": {
+    "src": "/assets/logos/mannlicher_logo.jpg"
+  },
+  "Purdey": {
+    "src": "/assets/logos/purdey_logo.jpg"
+  },
+  "Remington": {
+    "src": "/assets/logos/remington_logo.jpg"
+  },
+  "Sako": {
+    "src": "/assets/logos/sako_logo.jpg"
+  },
+  "Sarasqueta": {
+    "src": "/assets/logos/sarasqueta_logo.jpg"
+  },
+  "Sauer": {
+    "src": "/assets/logos/sauer_logo.jpg"
+  },
+  "Wincherster": {
+    "src": "/assets/logos/winchester_logo.jpg"
+  }
+}
