@@ -14,7 +14,7 @@
     },
     "navigation": [
       {"title" : "Contacto", "url" : "/contacto"},
-      {"title" : "Sobre nostros", "url" : "/nosotros"}
+      {"title" : "Sobre nosotros", "url" : "/nosotros"}
     ]
   },
   "domains": []
