@@ -11,7 +11,11 @@
       "name": "José Viaji",
       "email": "joseviaji@gmail.com",
       "bio": "Armero"
-    }
+    },
+    "navigation": [
+      {"title" : "Contacto", "url" : "/contacto"},
+      {"title" : "Sobre nostros", "url" : "/nosotros"}
+    ]
   },
   "domains": []
 }

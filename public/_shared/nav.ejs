@@ -1,0 +1,7 @@
+<nav>
+  <ul>
+  <% for (page in navigation) { %>
+    <li><a href="<%- navigation[page].url %>"><%- navigation[page].title %></a></li>
+  <% } %>
+  </ul>
+</nav>

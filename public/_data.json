@@ -1,0 +1,88 @@
+{
+  "contacto": {
+    "title": "Tradición",
+    "date": "30 de Julio, 2014",
+    "tags": [],
+    "published": true
+  },
+  "index": {
+    "logos": [
+      {
+        "title": "Arrieta",
+        "src": "/assets/images/logos/arrieta_logo.gif"
+      },
+      {
+        "title": "Arrizabalga",
+        "src": "/assets/images/logos/arrizabalga_logo.png"
+      },
+      {
+        "title": "Benelli",
+        "src": "/assets/images/logos/benelli_logo.png"
+      },
+      {
+        "title": "Berreta",
+        "src": "/assets/images/logos/berreta_logo.png"
+      },
+      {
+        "title": "Blaser",
+        "src": "/assets/images/logos/blaser_logo.png"
+      },
+      {
+        "title": "Browning",
+        "src": "/assets/images/logos/browning_logo.png"
+      },
+      {
+        "title": "Fabarm",
+        "src": "/assets/images/logos/fabarm_logo.png"
+      },
+      {
+        "title": "Franchi",
+        "src": "/assets/images/logos/franchi_logo.png"
+      },
+      {
+        "title": "Garbi",
+        "src": "/assets/images/logos/garbi_logo.png"
+      },
+      {
+        "title": "Grulla",
+        "src": "/assets/images/logos/grulla_logo.png"
+      },
+      {
+        "title": "Holland",
+        "src": "/assets/images/logos/holland_logo.png"
+      },
+      {
+        "title": "Krieghoff",
+        "src": "/assets/images/logos/krieghoff_logo.png"
+      },
+      {
+        "title": "Mannlicher",
+        "src": "/assets/images/logos/mannlicher_logo.png"
+      },
+      {
+        "title": "Purdey",
+        "src": "/assets/images/logos/purdey_logo.png"
+      },
+      {
+        "title": "Remington",
+        "src": "/assets/images/logos/remington_logo.png"
+      },
+      {
+        "title": "Sako",
+        "src": "/assets/images/logos/sako_logo.png"
+      },
+      {
+        "title": "Sarasqueta",
+        "src": "/assets/images/logos/sarasqueta_logo.png"
+      },
+      {
+        "title": "Sauer",
+        "src": "/assets/images/logos/sauer_logo.png"
+      },
+      {
+        "title": "Winchester",
+        "src": "/assets/images/logos/winchester_logo.png"
+      }
+    ]
+  }
+}
