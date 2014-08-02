@@ -45,7 +45,7 @@ $base-background-color: white;
       text-align: center;
 
       h1 {
-        font-size: 1.6em;
+        font-size: 2.2em;
         margin-bottom: .2em;
 
         @include media($large-screen) {
@@ -405,6 +405,42 @@ header.navigation {
         @include box-sizing(border-box);
         display: block;
       }
+    }
+  }
+}
+
+///////////////////////////////////////
+
+.container {
+  padding: 40px 0;
+  @include outer-container;
+}
+
+.card {
+  $card-border-color: $base-border-color;
+  $card-border: 1px solid $card-border-color;
+
+  @include transition (all 0.2s ease-in-out);
+  border-radius: $base-border-radius;
+  border: $card-border;
+  margin-bottom: $base-line-height;
+  box-shadow: 0 2px 4px darken($base-background-color, 10);
+  position: relative;
+
+  @include media($large-screen) {
+    @include span-columns(1);
+    @include omega(8n);
+  }
+
+  .card-image {
+    overflow: hidden;
+    max-height: 118px;
+
+    img {
+      width: 118px;
+      @include transition (all 0.2s ease-in-out);
+      border-top-left-radius: $base-border-radius;
+      border-top-right-radius: $base-border-radius;
     }
   }
 }
