@@ -1,0 +1,11 @@
+div.location_box {float:left; width:891px; height:auto; margin:30px 0 0 0;}
+div.location_box span.top {float:left; width:891px; height:21px; background:url('/images/top_bkg_map.png') no-repeat 0 0;}
+div.location_box div.content {float:left; width:869px; height:auto; background-color:white; margin:0; padding:0 0 0 22px;}
+div.location_box div.content div#map {width:846px; height:330px;}
+div.location_box div.content a.street {float:left; margin:9px 0 0 0; width:670px; font:normal 29px "AWConquerorDidotLight"; height:30px;}
+div.location_box div.content a.street:hover {text-decoration:underline; cursor:pointer;}
+div.location_box div.content p.address.first {margin:3px 0 0 0;}
+div.location_box div.content p.address {float:left; width:860px; font:normal 15px "Geneva"; color:#000000;}
+div.location_box div.content a.mailto {float:right; width:138px; height:auto; font:bold 29px "AWConquerorDidotLight"; color:#A76D01; text-decoration:underline; margin:6px 29px 0;}
+div.location_box div.content a.mailto:hover {cursor:pointer; color:#744C01;}
+div.location_box span.bottom {float:left; width:891px; height:21px; background:url('/images/bottom_bkg_map.png') no-repeat 0 0;}

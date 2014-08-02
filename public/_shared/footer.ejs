@@ -1,6 +1,18 @@
-<footer class="site-footer">
-    <a class="subscribe icon-feed" href="<% blog.url %>/rss/index.xml"><span class="tooltip">Subscribe!</span></a>
-    <div class="inner">
-         <section class="copyright">All content copyright <a href="<% blog.url %>/"><%= blog.title %></a> &copy; <%- new Date().getFullYear() %> &bull; All rights reserved.</section>
-    </div>
+<footer class="footer">
+  <div class="footer-logo">
+    <img src="/assets/images/logo-white.svg" alt="<%= blog.title %>">
+  </div>
+  <div class="footer-links">
+    <% for (page in navigation) { %>
+      <ul>
+        <li class="nav-link">
+          <a href="<%- navigation[page].url %>"><%- navigation[page].title %></a>
+        </li>
+      </ul>
+    <% } %>
+  </div>
+
+  <hr>
+
+  <p><a href="<% blog.url %>/"><%= blog.title %></a> <%- new Date().getFullYear() %>.</p>
 </footer>
