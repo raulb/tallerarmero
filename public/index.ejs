@@ -11,17 +11,48 @@
 </div>
 
 <!-- The main content area on the homepage  -->
-<main class="container" role="main">
-  <h5>Servicio Técnico</h5>
-  <hr>
-  <div class="cards">
-    <% for (index_logo in logos) { %>
-    <div class="card">
-      <div class="card-image">
-        <% var logo = logos[index_logo] %>
-        <img src="<%= logo.src %>" />
-      </div>
+<main role="main">
+  <section class="container">
+    <div class="grid-items">
+      <a href="http://www.arrietashotguns.com/index.php/es/" target="_blank" class="grid-item grid-item-big grid-item-image">
+        <img src="/assets/images/logos/arrieta-banner.png" alt="Arrieta Logo">
+        <h1>Distribuidor oficial</h1>
+        <p>En exclusiva de las escopetas Arrieta en España.</p>
+      </a>
     </div>
-    <% } %>
-  </div>
+    
+    <h5>Servicio Técnico</h5>
+    <hr>
+
+    <p>Marcas que reparamos, si hay alguna que no se encuentra en esta lista, no dudes en <a href="/contacto">contactarnos</a>.
+
+    <div class="cards">
+      <% for (index_logo in logos) { %>
+      <div class="card">
+        <div class="card-image">
+          <% var logo = logos[index_logo] %>
+          <img src="<%= logo.src %>" />
+        </div>
+      </div>
+      <% } %>
+    </div>
+  </section>
+
+  <section class="container">
+    <h5>Especialistas</h5>
+    <hr>
+
+    <ul>
+      <li>Regulación de gatillos y disparadores</li>
+      <li>Poner armas a medida del cazador
+        <ul>
+          <li>Curvaturas en la culata</li>
+          <li>Ventaja lateral en la culata</li>
+          <li>Pich</li>
+          <li>Largo de culata</li>
+          <li>Cantoneras de goma</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
 </main>

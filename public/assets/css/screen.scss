@@ -4,7 +4,6 @@
 @import "harp-bitters/scss/bitters";
 @import "contact";
 
-
 $navigation-background: $dark-gray;
 $navigation-color: transparentize(white, 0.3);
 $navigation-color-hover: white;
@@ -17,6 +16,8 @@ $base-background-color: white;
   $hero-color: white;
   $gradient-angle: 10deg;
   @include background(linear-gradient($gradient-angle, $hero-background-bottom, $hero-background-top), no-repeat $hero-background-top scroll);
+
+  margin-bottom: 20px;
 
   background-repeat: no-repeat;
   background-position: top;
@@ -106,8 +107,26 @@ header.navigation {
     padding-right: 2em;
 
     img {
+      float: left;
       max-height: $navigation-height;
       padding: .8em 0;
+    }
+
+    p {
+      color: $navigation-color;
+      float: left;
+      font-size: 1.3em;
+      margin: 17px 0 0 12px;
+      display: inline-block;
+      font-weight: 400;
+
+      @include media ($horizontal-bar-mode) {
+        padding-right: 1em;
+      }
+
+      &:hover {
+        color: $navigation-color-hover;
+      }
     }
   }
 
@@ -413,7 +432,7 @@ header.navigation {
 ///////////////////////////////////////
 
 .container {
-  padding: 40px 20px;
+  padding: 20px;
   @include outer-container;
 }
 
@@ -428,11 +447,12 @@ header.navigation {
   box-shadow: 0 2px 4px darken($base-background-color, 10);
   position: relative;
 
+  display: inline-block;
+  max-width: 120px;
   @include media($large-screen) {
     @include span-columns(1);
     @include omega(8n);
   }
-
   .card-image {
     overflow: hidden;
     max-height: 118px;
@@ -522,5 +542,97 @@ header.navigation {
     margin: auto;
     max-width: 35em;
     text-align: center;
+  }
+}
+
+/////////////////////////
+
+@mixin grid-item-columns($columns) {
+  width: (100% / 12) * $columns;
+}
+
+.grid-items {
+  $grid-items-background: $base-background-color;
+  $grid-item-background: desaturate($base-accent-color, 30);
+  $grid-item-colors:
+    desaturate($base-accent-color, 30),
+    #3581A5,
+    #5FBEBE,
+    #98C79A,
+    #A7A891,
+    #BDCC97,
+    #979EA0;
+  $grid-item-border-size: 9px;
+  $grid-item-columns: 4;
+  $grid-item-big-columns: 8;
+  $grid-item-color: white;
+  $grid-item-height: 14em;
+
+  @include clearfix;
+
+  .grid-item {
+    @include transition (all 0.2s ease-in-out);
+    height: $grid-item-height;
+    background: $grid-item-background;
+    width: 100%;
+    overflow: hidden;
+    float: left;
+    padding: 2em;
+    border-top: 0;
+    border-bottom: $grid-item-border-size solid $grid-items-background;
+    border-left: $grid-item-border-size /2 solid $grid-items-background;
+    border-right: $grid-item-border-size /2 solid $grid-items-background;
+    text-align: center;
+    cursor: pointer;
+
+    @include media($large-screen) {
+      @include grid-item-columns($grid-item-columns);
+    }
+
+    @for $i from 1 to 8 { // assign colors from $grid-item-colors list
+      &:nth-child(#{$i}) {
+        $background-from-list: nth($grid-item-colors, $i);
+        background-color: $background-from-list;
+        &:hover {
+          background-color: darken($background-from-list, 10);
+          background-repeat: no-repeat;
+          background-position: top;
+          background-size: cover;
+        }
+      }
+    }
+  }
+
+  .grid-item img {
+      display: block;
+      margin: auto;
+      margin-bottom: 1em;
+      width: 162px;
+      height: 162px;
+      float: right;
+      margin-top: -5px;
+    }
+
+  .grid-item h1 {
+      color: $grid-item-color;
+      font-size: 2em;
+      margin: 1.2em 0 .3em;
+    }
+
+  .grid-item p {
+      margin: auto;
+      color: transparentize($grid-item-color, .3);
+    }
+
+  .grid-item-big {
+    width: 100%;
+  }
+
+  .grid-item-image {
+    background: url(/assets/images/escopetas/modelo-803-arrieta.png);
+    background-color: $grid-item-background;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
   }
 }

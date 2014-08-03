@@ -18,7 +18,6 @@ $(document).ready(function(ev) {
 });
 
 function initialize() {
-  debugger;
   var myLatlng = new google.maps.LatLng(latitude, longitude);
   var myOptions = {
       scrollwheel: false,

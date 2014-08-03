@@ -1,15 +1,13 @@
-<nav class="nav">
-  <ul id="navigation-menu">
-
-  </ul>
-</nav>
-
-
 <header class="navigation">
   <div class="navigation-wrapper">
+    <% if(current.source != 'index' || current.path.length != 1) { %>
     <a href="/" class="logo">
       <img src="/assets/images/logo-white.svg" alt="<%= blog.title %>">
+      <p>
+        <%= blog.title %>
+      </p>
     </a>
+    <% } %>
     <a href="" class="navigation-menu-button" id="js-mobile-menu">MENU</a>
     <div class="nav">
       <ul id="navigation-menu">
