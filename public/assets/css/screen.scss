@@ -7,6 +7,7 @@
 $navigation-background: $dark-gray;
 $navigation-color: transparentize(white, 0.3);
 $navigation-color-hover: white;
+$deer-green-color: #12602C;
 
 $base-background-color: white;
 
@@ -15,7 +16,7 @@ $base-background-color: white;
   $hero-background-bottom: adjust-hue($hero-background-top, -10);
   $hero-color: white;
   $gradient-angle: 10deg;
-  @include background(linear-gradient($gradient-angle, $hero-background-bottom, $hero-background-top), no-repeat $hero-background-top scroll);
+  @include background(url(/assets/images/home/taller.png), linear-gradient($gradient-angle, $hero-background-bottom, $hero-background-top), no-repeat $hero-background-top scroll);
 
   margin-bottom: 20px;
 
@@ -87,8 +88,18 @@ header.navigation {
   $navigation-submenu-width: 12em;
   $horizontal-bar-mode: $large-screen;
 
-  background-color: $navigation-background;
-  /* border-bottom: 1px solid darken(\$navigation-background, 10); */
+  &.white-bg {
+    ul li.nav-link a, a p {
+      color: $deer-green-color;
+
+      &:hover {
+        color: darken($deer-green-color, 10);
+      }
+    }
+
+
+  }
+
   height: $navigation-height;
   width: 100%;
   z-index: 999;
@@ -436,6 +447,10 @@ header.navigation {
   @include outer-container;
 }
 
+.cards {
+  margin-top: 20px;
+}
+
 .card {
   $card-border-color: $base-border-color;
   $card-border: 1px solid $card-border-color;
@@ -570,6 +585,8 @@ header.navigation {
 
   @include clearfix;
 
+  margin-bottom: 20px;
+
   .grid-item {
     @include transition (all 0.2s ease-in-out);
     height: $grid-item-height;
@@ -607,8 +624,11 @@ header.navigation {
       display: block;
       margin: auto;
       margin-bottom: 1em;
-      width: 162px;
-      height: 162px;
+      @include media($large-screen) {
+        width: 162px;
+        height: 162px;
+      }
+
       float: right;
       margin-top: -5px;
     }

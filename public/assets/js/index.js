@@ -29,7 +29,7 @@ function initialize() {
 
   map = new google.maps.Map(document.getElementById("map"), myOptions);
 
-  var contentString = '<div id="infoWindow">' + '<div id="siteNotice">' + '</div>' + '<h5 id="title_infowindow" class="title_infowindow">Taller Armero José Viaji</h1>' + '</div>';
+  var contentString = '<div id="infoWindow">' + '<div id="siteNotice">' + '</div>' + '<p id="title_infowindow" class="title_infowindow">Armería Viaji</p>' + '</div>';
 
   var infowindow = new google.maps.InfoWindow({
       content: contentString
@@ -38,10 +38,35 @@ function initialize() {
   var marker = new google.maps.Marker({
     position: myLatlng,
     map: map,
-    title: 'Taller Armero José Viaji'
+    title: 'Armería Viaji'
   });
 
   google.maps.event.addListener(marker, 'click', function() {
     infowindow.open(map, marker);
   });
 }
+
+
+$(document).ready(function() {
+  var menu = $('#navigation-menu');
+  var menuToggle = $('#js-mobile-menu');
+
+  $(menuToggle).on('click', function(e) {
+    e.preventDefault();
+    menu.slideToggle(function(){
+      if(menu.is(':hidden')) {
+        menu.removeAttr('style');
+      }
+    });
+  });
+
+
+ // underline under the active nav item
+  $(".nav .nav-link").click(function() {
+    $(".nav .nav-link").each(function() {
+      $(this).removeClass("active-nav-item");
+    });
+    $(this).addClass("active-nav-item");
+    $(".nav .more").removeClass("active-nav-item");
+  });
+});

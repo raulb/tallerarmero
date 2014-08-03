@@ -1,8 +1,8 @@
-<header class="navigation">
+<header class="navigation <% if(current.source != 'index' || current.path.length != 1) { %>white-bg<% } %>">
   <div class="navigation-wrapper">
     <% if(current.source != 'index' || current.path.length != 1) { %>
     <a href="/" class="logo">
-      <img src="/assets/images/logo-white.svg" alt="<%= blog.title %>">
+      <img src="/assets/images/logo-green.svg" alt="<%= blog.title %>">
       <p>
         <%= blog.title %>
       </p>

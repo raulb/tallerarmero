@@ -3,7 +3,7 @@
     "blog": {
       "title": "Armería Viaji",
       "description": "Una tradición de armeros de más de 100 años nos avalan.",
-      "logo": "http://f.cl.ly/items/2P300s3Y1E0S293s0i0t/armeria-logo.svg",
+      "logo": "/assets/images/logo-white.svg",
       "cover": false,
       "url": "/"
     },
