@@ -4,7 +4,9 @@
 @import "harp-bitters/scss/bitters";
 @import "contact";
 
-$navigation-background: $dark-gray;
+
+$sepia-color: #E5DFC5;
+$navigation-background: darken($sepia-color, 30);
 $navigation-color: transparentize(white, 0.3);
 $navigation-color-hover: white;
 $deer-green-color: #12602C;
@@ -13,7 +15,7 @@ $base-background-color: white;
 
 .hero {
   $hero-background-top: $navigation-background;
-  $hero-background-bottom: adjust-hue($hero-background-top, -10);
+  $hero-background-bottom: darken($hero-background-top, 60);
   $hero-color: white;
   $gradient-angle: 10deg;
   @include background(url(/assets/images/home/taller.png), linear-gradient($gradient-angle, $hero-background-bottom, $hero-background-top), no-repeat $hero-background-top scroll);
@@ -568,15 +570,7 @@ header.navigation {
 
 .grid-items {
   $grid-items-background: $base-background-color;
-  $grid-item-background: desaturate($base-accent-color, 30);
-  $grid-item-colors:
-    desaturate($base-accent-color, 30),
-    #3581A5,
-    #5FBEBE,
-    #98C79A,
-    #A7A891,
-    #BDCC97,
-    #979EA0;
+  $grid-item-background: darken(desaturate($sepia-color, 30),60);
   $grid-item-border-size: 9px;
   $grid-item-columns: 4;
   $grid-item-big-columns: 8;
@@ -606,17 +600,11 @@ header.navigation {
       @include grid-item-columns($grid-item-columns);
     }
 
-    @for $i from 1 to 8 { // assign colors from $grid-item-colors list
-      &:nth-child(#{$i}) {
-        $background-from-list: nth($grid-item-colors, $i);
-        background-color: $background-from-list;
-        &:hover {
-          background-color: darken($background-from-list, 10);
-          background-repeat: no-repeat;
-          background-position: top;
-          background-size: cover;
-        }
-      }
+    &:hover {
+      background-color: darken($grid-item-background, 10);
+      background-repeat: no-repeat;
+      background-position: top;
+      background-size: cover;
     }
   }
 
