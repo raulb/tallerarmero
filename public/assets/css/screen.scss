@@ -644,3 +644,21 @@ header.navigation {
     background-size: cover;
   }
 }
+////////////////
+
+.popup-gallery {
+  float:left;
+  width: 100%;
+  padding: 20px 0;
+
+  .image-gallery {
+    @include media($large-screen) {
+      @include span-columns(1);
+      @include omega(8n);
+    }
+
+    img {
+      max-height: 120px;
+    }
+  }
+}

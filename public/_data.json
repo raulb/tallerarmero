@@ -77,6 +77,56 @@
         "title": "Winchester",
         "src": "/assets/images/logos/winchester_logo.png"
       }
+    ],
+    "photos": [
+      {
+        "small": "/assets/images/gallery/20140307_154204_s.jpg",
+        "big": "/assets/images/gallery/20140307_154204.jpg"
+      },
+      {
+        "small": "/assets/images/gallery/DSC02554-2_s.JPG",
+        "big": "/assets/images/gallery/DSC02554-2.JPG"
+      },
+      {
+        "small": "/assets/images/gallery/DSC03275_s.JPG",
+        "big": "/assets/images/gallery/DSC03275.JPG"
+      },
+      {
+        "small": "/assets/images/gallery/Imagen 052_s.jpg",
+        "big": "/assets/images/gallery/Imagen 052.jpg"
+      },
+      {
+        "small": "/assets/images/gallery/Imagen 072_s.jpg",
+        "big": "/assets/images/gallery/Imagen 072.jpg"
+      },
+      {
+        "small": "/assets/images/gallery/Imagen 096_s.jpg",
+        "big": "/assets/images/gallery/Imagen 096.jpg"
+      },
+      {
+        "small": "/assets/images/gallery/Imagen 259_s.jpg",
+        "big": "/assets/images/gallery/Imagen 259.jpg"
+      },
+      {
+        "small": "/assets/images/gallery/Imagen 263_s.jpg",
+        "big": "/assets/images/gallery/Imagen 263.jpg"
+      },
+      {
+        "small": "/assets/images/gallery/TALLER 001-2_s.jpg",
+        "big": "/assets/images/gallery/TALLER 001-2.jpg"
+      },
+      {
+        "small": "/assets/images/gallery/TALLER 005-2_s.jpg",
+        "big": "/assets/images/gallery/TALLER 005-2.jpg"
+      },
+      {
+        "small": "/assets/images/gallery/TALLER 034_s.jpg",
+        "big": "/assets/images/gallery/TALLER 034.jpg"
+      },
+      {
+        "small": "/assets/images/gallery/Imagen 097-2_s.jpg",
+        "big": "/assets/images/gallery/Imagen 097-2.jpg"
+      }
     ]
   }
 }

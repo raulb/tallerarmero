@@ -13,33 +13,42 @@
 <main role="main">
   <section class="container">
 
-    <div class="grid-items">
-      <a href="http://www.arrietashotguns.com/index.php/es/" target="_blank" class="grid-item grid-item-big grid-item-image">
-        <img src="/assets/images/logos/arrieta-banner.png" alt="Arrieta Logo">
-        <h1>Distribuidor oficial</h1>
-        <p>En exclusiva de las escopetas Arrieta en España.</p>
-      </a>
-    </div>
-
-    <section class="gallery">
-
+    <section>
+      <div class="grid-items">
+        <a href="http://www.arrietashotguns.com/index.php/es/" target="_blank" class="grid-item grid-item-big grid-item-image">
+          <img src="/assets/images/logos/arrieta-banner.png" alt="Arrieta Logo">
+          <h1>Distribuidor oficial</h1>
+          <p>En exclusiva de las escopetas Arrieta en España.</p>
+        </a>
+      </div>
     </section>
 
-    <h5>Especialistas</h5>
-    <hr>
-    <p>Regulamos gatillos y disparadores, ponemos armas a medidas del cazador: Curvaturas en la culata, ventaja lateral en la culata, Pich, largo de culata, cantoneras de goma y un largo etc. <a href="/contacto">Contáctanos ante cualquier duda</a>.</li>
+    <section>
+      <h5>Especialistas</h5>
+      <hr>
+      <p>Regulamos gatillos y disparadores, ponemos armas a medidas del cazador: Curvaturas en la culata, ventaja lateral en la culata, Pich, largo de culata, cantoneras de goma y un largo etc. <a href="/contacto">Contáctanos ante cualquier duda</a>.</p></li>
 
-    <p>Marcas que reparamos, si hay alguna que no se encuentra en esta lista, no dudes en <a href="/contacto">contactarnos</a>.
-
-    <div class="cards">
-      <% for (index_logo in logos) { %>
-      <div class="card">
-        <div class="card-image">
-          <% var logo = logos[index_logo] %>
-          <img src="<%= logo.src %>" />
-        </div>
+      <div class="popup-gallery">
+        <% for (index_photo in photos) { %>
+          <% var photo = photos[index_photo] %>
+          <div class="image-gallery">
+             <a href="<%= photo.big %>"><img src="<%= photo.small %>"></a>
+          </div>
+        <% } %>
       </div>
-      <% } %>
-    </div>
+
+      <p>Marcas que reparamos, si hay alguna que no se encuentra en esta lista, no dudes en <a href="/contacto">contactarnos</a>:</p>.
+
+      <div class="cards">
+        <% for (index_logo in logos) { %>
+        <div class="card">
+          <div class="card-image">
+            <% var logo = logos[index_logo] %>
+            <img src="<%= logo.src %>" />
+          </div>
+        </div>
+        <% } %>
+      </div>
+    </section>
   </section>
 </main>
