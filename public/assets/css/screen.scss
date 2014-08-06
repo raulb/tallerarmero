@@ -99,7 +99,13 @@ header.navigation {
       }
     }
 
+    .navigation-menu-button {
+      color: $deer-green-color;
 
+      &:hover {
+        color: darken($deer-green-color, 10);
+      }
+    }
   }
 
   height: $navigation-height;
@@ -195,9 +201,7 @@ header.navigation {
   // The nav items
 
   ul li.nav-link {
-    background: $navigation-background;
     display: block;
-    line-height: $navigation-height;
     overflow: hidden;
     padding-right: .8em;
     text-align: right;
