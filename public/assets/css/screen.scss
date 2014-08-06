@@ -470,6 +470,12 @@ header.navigation {
 
   display: inline-block;
   max-width: 120px;
+
+  @media screen and (max-width: 407px) {
+    @include span-columns(1 of 2);
+    margin-right: 0;
+  }
+
   @include media($large-screen) {
     @include span-columns(1);
     @include omega(8n);
@@ -666,18 +672,24 @@ header.navigation {
 ////////////////
 
 .popup-gallery {
-  float:left;
+  text-align: center;
+  float: left;
   width: 100%;
   padding: 20px 0;
 
   .image-gallery {
+    @media screen and (max-width: 540px) {
+      @include span-columns(4);
+      @include omega(3n);
+    }
+
+    @include media($small-screen) {
+      display: inline-block;
+    }
+
     @include media($large-screen) {
       @include span-columns(1);
       @include omega(8n);
-    }
-
-    img {
-      max-height: 120px;
     }
   }
 }
