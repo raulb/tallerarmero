@@ -4,17 +4,19 @@ var longitude = -3.6819766;
 var default_zoom = 17;
 
 $(document).ready(function(ev) {
-  // Preparamos el light box para la revista
-  // $('p#info a').lightBox();
+  var menu = $('#navigation-menu');
+  var menuToggle = $('#js-mobile-menu');
 
-  // para que vuelva a su posición original si hemos movido el mapa
-  // $('a.street').click(function(ev) {
-  //     ev.preventDefault();
-  //     ev.stopPropagation();
-  //     var coord_taller = new google.maps.LatLng(latitude, longitude);
-  //     map.setCenter(coord_taller);
-  //     map.setZoom(default_zoom);
-  // });
+  $(menuToggle).on('click', function(e) {
+    e.preventDefault();
+    e.stopPropagation();
+
+    menu.slideToggle(function(){
+      if(menu.is(':hidden')) {
+        menu.removeAttr('style');
+      }
+    });
+  });
 });
 
 function initialize() {
@@ -45,19 +47,3 @@ function initialize() {
     infowindow.open(map, marker);
   });
 }
-
-
-$(document).ready(function() {
-  var menu = $('#navigation-menu');
-  var menuToggle = $('#js-mobile-menu');
-
-  $(menuToggle).on('click', function(e) {
-    e.preventDefault();
-    menu.slideToggle(function(){
-      if(menu.is(':hidden')) {
-        menu.removeAttr('style');
-      }
-    });
-  });
-
-});

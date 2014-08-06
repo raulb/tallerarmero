@@ -21,7 +21,7 @@
 
 
 </head>
-<body class="<% if(current.source == 'index') { %>home-template<% } else { %>post-template<% } %>"  onload="initialize()">
+<body class="<% if(current.source == 'index') { %>home-template<% } else { %>post-template<% } %>" onload="initialize()">
 
   <% if(current.source == 'index' && current.path.length == 1) { %>
     <%- yield %>
@@ -36,7 +36,6 @@
   <script src="/assets/js/index.js"></script>
   <script src="/assets/js/lib/popup.js"></script>
   <script src="/assets/js/gallery.js"></script>
-  <script type="text/javascript" src="/assets/js/index.js"></script>
 
 </body>
 </html>
