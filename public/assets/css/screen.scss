@@ -568,81 +568,96 @@ header.navigation {
 
 /////////////////////////
 
-@mixin grid-item-columns($columns) {
+@mixin banner-item-columns($columns) {
   width: (100% / 12) * $columns;
 }
 
-.grid-items {
-  $grid-items-background: $base-background-color;
-  $grid-item-background: darken(desaturate($sepia-color, 30),60);
-  $grid-item-border-size: 9px;
-  $grid-item-columns: 4;
-  $grid-item-big-columns: 8;
-  $grid-item-color: white;
-  $grid-item-height: 14em;
+.banner-items {
+  $banner-items-background: $base-background-color;
+  $banner-item-background: darken(desaturate($sepia-color, 30),60);
+  $banner-item-border-size: 9px;
+  $banner-item-columns: 4;
+  $banner-item-big-columns: 8;
+  $banner-item-color: white;
+  $banner-item-height: 14em;
 
   @include clearfix;
 
   margin-bottom: 20px;
 
-  .grid-item {
+  .banner-item {
     @include transition (all 0.2s ease-in-out);
-    height: $grid-item-height;
-    background: $grid-item-background;
+    min-height: $banner-item-height;
+    background: $banner-item-background;
     width: 100%;
     overflow: hidden;
     float: left;
     padding: 2em;
     border-top: 0;
-    border-bottom: $grid-item-border-size solid $grid-items-background;
-    border-left: $grid-item-border-size /2 solid $grid-items-background;
-    border-right: $grid-item-border-size /2 solid $grid-items-background;
+    border-bottom: $banner-item-border-size solid $banner-items-background;
+    border-left: $banner-item-border-size /2 solid $banner-items-background;
+    border-right: $banner-item-border-size /2 solid $banner-items-background;
     text-align: center;
     cursor: pointer;
 
     @include media($large-screen) {
-      @include grid-item-columns($grid-item-columns);
+      @include banner-item-columns($banner-item-columns);
     }
 
     &:hover {
-      background-color: darken($grid-item-background, 10);
+      background-color: darken($banner-item-background, 10);
       background-repeat: no-repeat;
       background-position: top;
       background-size: cover;
     }
   }
 
-  .grid-item img {
+  .banner-item img {
       display: block;
       margin: auto;
       margin-bottom: 1em;
+      float: none;
+
+      @include media($small-screen) {
+        width: 132px;
+        height: 132px;
+      }
+
+      @include media($medium-screen) {
+        width: 152px;
+        height: 152px;
+        float: right;
+      }
+
       @include media($large-screen) {
         width: 162px;
         height: 162px;
       }
 
-      float: right;
       margin-top: -5px;
     }
 
-  .grid-item h1 {
-      color: $grid-item-color;
+  .banner-item h1 {
+      color: $banner-item-color;
       font-size: 2em;
-      margin: 1.2em 0 .3em;
+
+      @include media($medium-screen) {
+        margin: 1.2em 0 .3em;
+      }
     }
 
-  .grid-item p {
+  .banner-item p {
       margin: auto;
-      color: transparentize($grid-item-color, .3);
+      color: transparentize($banner-item-color, .3);
     }
 
-  .grid-item-big {
+  .banner-item-big {
     width: 100%;
   }
 
-  .grid-item-image {
+  .banner-item-image {
     background: url(/assets/images/escopetas/modelo-803-arrieta.png);
-    background-color: $grid-item-background;
+    background-color: $banner-item-background;
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
