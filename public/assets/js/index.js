@@ -31,7 +31,7 @@ function initialize() {
 
   map = new google.maps.Map(document.getElementById("map"), myOptions);
 
-  var contentString = '<div id="infoWindow">' + '<div id="siteNotice">' + '</div>' + '<p id="title_infowindow" class="title_infowindow">Armería Viaji</p>' + '</div>';
+  var contentString = '<div id="infoWindow">' + '<div id="siteNotice">' + '</div>' + '<h4 id="title_infowindow" class="title_infowindow">Armería Viaji</h4>' + '</div>';
 
   var infowindow = new google.maps.InfoWindow({
       content: contentString
