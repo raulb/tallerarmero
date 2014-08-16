@@ -13,6 +13,14 @@ $deer-green-color: #12602C;
 
 $base-background-color: white;
 
+.centered {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
 .hero {
   $hero-background-top: $navigation-background;
   $hero-background-bottom: darken($hero-background-top, 60);
@@ -692,4 +700,20 @@ header.navigation {
       @include omega(8n);
     }
   }
+}
+
+//////////////////////////////////
+
+/* padding-bottom and top for image */
+.mfp-no-margins img.mfp-img {
+	padding: 0;
+}
+/* position of shadow behind the image */
+.mfp-no-margins .mfp-figure:after {
+	top: 0;
+	bottom: 0;
+}
+/* padding for main container */
+.mfp-no-margins .mfp-container {
+	padding: 0;
 }
