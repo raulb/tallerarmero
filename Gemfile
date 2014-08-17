@@ -1,5 +1,4 @@
 source "http://rubygems.org"
 
-gem "sinatra"
-gem "foreman"
-gem "thin"
+ruby "2.0.0"
+gem 'sinatra', '1.1.0'
