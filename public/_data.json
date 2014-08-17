@@ -127,6 +127,36 @@
         "small": "/assets/images/gallery/Imagen 097-2_s.jpg",
         "big": "/assets/images/gallery/Imagen 097-2.jpg"
       }
+    ],
+    "javascripts" : [
+      {
+        "src":"/assets/js/lib/popup.js"
+      },
+      {
+        "src":"/assets/js/home.js"
+      }
+    ]
+  },
+  "contacto": {
+    "title" : "Contacto",
+    "javascripts" : [
+      {
+        "src":"//maps.google.com/maps/api/js?sensor=false"
+      },
+      {
+        "src":"/assets/js/contact.js"
+      }
+    ]
+  },
+  "nosotros": {
+    "title" : "Sobre Nosotros",
+    "javascripts" : [
+      {
+        "src":"/assets/js/lib/popup.js"
+      },
+      {
+        "src":"/assets/js/about.js"
+      }
     ]
   }
 }
