@@ -18,7 +18,7 @@
         <a href="http://www.arrietashotguns.com/index.php/es/" target="_blank" class="banner-item banner-item-big banner-item-image">
           <img src="/assets/images/logos/arrieta-banner.png" alt="Arrieta Logo">
           <h1>Distribuidor oficial</h1>
-          <p>En exclusiva de las escopetas Arrieta en España.</p>
+          <p>En exclusiva de las escopetas Arrieta y Arrizabalaga en España.</p>
         </a>
       </div>
     </section>
@@ -37,14 +37,16 @@
         <% } %>
       </div>
 
-      <p>Marcas que reparamos, si hay alguna que no se encuentra en esta lista, no dudes en <a href="/contacto">contactarnos</a>:</p>.
+      <p>Marcas que reparamos, si hay alguna que no se encuentra en esta lista, no dudes en <a href="/contacto">contactarnos</a>:</p>
 
       <div class="cards">
         <% for (index_logo in logos) { %>
+        <% var logo = logos[index_logo] %>
         <div class="card">
           <div class="card-image">
-            <% var logo = logos[index_logo] %>
+            <% if (typeof(logo.link)!=='undefined') { %><a href="<%= logo.link %>" target="_blank"><% } %>
             <img src="<%= logo.src %>" />
+            <% if (typeof(logo.link)!=='undefined') { %></a><% } %>
           </div>
         </div>
         <% } %>

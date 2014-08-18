@@ -3,11 +3,13 @@
     "logos": [
       {
         "title": "Arrieta",
-        "src": "/assets/images/logos/arrieta_logo.png"
+        "src": "/assets/images/logos/arrieta_logo.png",
+        "link": "http://www.arrietashotguns.com/index.php/es/"
       },
       {
-        "title": "Arrizabalga",
-        "src": "/assets/images/logos/arrizabalga_logo.png"
+        "title": "Arrizabalaga",
+        "src": "/assets/images/logos/arrizabalaga_logo.png",
+        "link": "http://www.pedroarrizabalaga.com/index.php/es/"
       },
       {
         "title": "Benelli",
